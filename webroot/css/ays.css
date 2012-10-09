@@ -455,7 +455,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 #productTab{border:none;}
 #productTab.nav-tabs > li {border: none; position:relative;}
 #productTab.nav-tabs > li > a {border: none; color:#fff; font-family: Ubuntu Condensed; font-size: 14px; padding: 15px; border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;background-color: #61b5d7;}
-#productTab.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover  { color: white; background: #000; }
+#productTab.nav-tabs > li.active > a,#productTab.nav-tabs > li.active > a:hover { color: white; background: #000; }
 #productTab.nav-tabs > li > a:hover {;background-color: #fff; color: #000;;}
 #productTab.nav-tabs > li .arrow {display:none}
 #productTab.nav-tabs > li.active .arrow {position:absolute;bottom:-5px;left:45%;top:auto;display:block;}
