@@ -4,8 +4,8 @@
 </div>
 <div class="modal-body">
 	<div id="contact-publisher" >
-		<p>Téléphone : <b>02-98-85-17-17</b></p>
-		<p>ou envoyer un message</p>
+        <p class="action-telephone">Téléphone : <b>04 42 09 90 00</b></p>
+        <p class="action-message">ou envoyer un message</p>
 		<form id="form-contact-publisher" method="post" action="#">
 	          <div class="control-group">
 	            <label class="control-label" for="input04">Non</label>
@@ -33,4 +33,3 @@
 	<a class="btn" data-dismiss="modal">Fermer</a>
 </div>
 
-        

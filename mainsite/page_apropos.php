@@ -120,7 +120,7 @@
 				
 					<div class="highlight clearfix">
 						<h1 class="page_ttre">Nom commercial</h1>
-						<h2 class="sub_ttre">Agence de voyages  nom  ville-CP</h2>
+						<p class="sub_ttre">Agence de voyages  nom  ville-CP</p>
 		                <div class="btn_contact"><a data-toggle="modal" title="Contactez le vendeur"  class="btn btn-xlarge  btn-primary" href="modal.php">Nous contacter</a></div>
 		            </div>
 				

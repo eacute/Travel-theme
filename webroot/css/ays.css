@@ -411,7 +411,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .detail_produit {width: 640px; padding: 10px 0 0 0;background: transparent; position: relative;}
 #top_detail {border-bottom: solid 1px #4d4d4d;padding-bottom:10px;margin-bottom:20px}
 .single .highlight{min-height:90px;margin: 0 0 20px 0;position:relative;z-index:1}
-.single .highlight h1.page_ttre , .single .highlight h2.sub_ttre {font-family: Lato; color: #fff;font-style:normal; font-size: 24px ; line-height: 26px;padding: 0px 0 0px 0; margin:0  160px 0 0 ;text-transform: none ; font-weight: normal;}
+.single .highlight h1.page_ttre , .single .highlight .sub_ttre {font-family: Lato; color: #fff;font-style:normal; font-size: 24px ; line-height: 26px;padding: 0px 0 0px 0; margin:0  160px 0 0 ;text-transform: none ; font-weight: normal;}
 .single .highlight .btn_contact{position:absolute;top:20px;right:0;}
 .detail_produit .cat {margin: 0 0 0 0;padding: 0 ; color: #61b5d7; font-weight: normal; font-family: Ubuntu Condensed !important; font-size: 18px; text-transform: uppercase;;}
 .detail_produit .cat span{margin: 0 0 0 10px; padding: 0 0 0 10px;border-left:1px solid  #61b5d7;}
@@ -519,8 +519,10 @@ p.pdt_count {font-size: 18px; color: #61b5d7; float:right;margin-top:28px;}
 /*MODAL CONTACT FORM*/
 #contact-publisher p , #form-contact-publisher label{font-size:14px;}
 #contact-publisher{padding:0 15px;}
-#contact-publisher input.span2,#contact-publisher textarea.span2,#contact-publisher .uneditable-input.span2 { width: 490px; }
-
+#contact-publisher input.span2,#contact-publisher textarea.span2,#contact-publisher .uneditable-input.span2 { width: 210px; }
+#contact-publisher  p.action-telephone {     font-size: 20px; }
+p.action-message {     margin: 18px 0 8px; }
+#contact-publisher   .control-group {     margin: 0 0 8px; }
 /*FOOTER*/
 #footer {background: #202020; padding: 0; font-family: Lato;}
 #footer .col:first-child{border-left:1px solid #4d4c54;}
