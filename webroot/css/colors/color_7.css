@@ -1,0 +1,61 @@
+a,.order-controls label
+{color: #922c2d;}
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu 
+{background-color: #922c2d;}
+a:hover
+{color: #781011;}
+.draghandle.default
+{border-color: #922c2d;}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover,.navbar .dropdown-menu a:hover 
+{background-color: #781011;}
+/* Boutons */
+.btn-primary,
+.btn-primary:hover{ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #fff; }
+
+.btn-primary.active{   color: rgba(255, 255, 255, 0.75); }
+.btn-primary {
+  background-color: #c02f2f;
+  background-image: -moz-linear-gradient(top, #c02f2f, #8d2c2d);
+  background-image: -ms-linear-gradient(top, #c02f2f, #8d2c2d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c02f2f), to(#8d2c2d));
+  background-image: -webkit-linear-gradient(top, #c02f2f, #8d2c2d);
+  background-image: -o-linear-gradient(top, #c02f2f, #8d2c2d);
+  background-image: linear-gradient(top, #c02f2f, #8d2c2d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c02f2f', endColorstr='#8d2c2d', GradientType=0,enabled=true);
+  border-color: #c02f2f #c02f2f #8d2c2d;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] { background-color: #8d2c2d; }
+
+.btn-primary:active,
+.btn-primary.active { background-color: #8d2c2d \9; }
+
+
+/* light color */ 
+.detail .highlight,#detail_feature ul,#detail_about,#footer,#header,.slider-caption, .navbar-inner
+{background:#e06828;}
+.navbar .nav > li { border-color:#e06828;}
+
+/* Dark color */
+.select-group .btn.dropdown-toggle,.sliderkit-panel .slider-caption p.price, .thumbnail p.price, .thumbnail p.cat ,.jq-slider .inner.default ,.navbar .container
+{background:#ecad47;}
+.select-group .btn.dropdown-toggle
+{border-color:#ecad47}
+.navbar .nav li > a:hover .caret
+{border-top-color:#ecad47}
+#contentzone p.pdt_count,#contentzone h2.ttre,h1,h2,h3,h4,h5,#footer .col .ttre,#footer .copyright,#contact-box .ttre,.slider-caption p.desc
+{color:#ecad47}
+
+/* Image */
+[class^="icon-"],
+[class*=" icon-"],
+.order-controls .m-btn
+{background-image:url(../img/sprite7.png);}
+/* Altern */
+#contact-box, #welcome-box,#footer .col,#footer .col:first-child
+{border-color:#ecad47}
+/* White */
+#footer a ,#footer,#welcome-box p { color: #fff; }

@@ -1,0 +1,65 @@
+a,.order-controls label
+{color: #323232;}
+a:hover
+{color: #000;}
+.draghandle.default
+{border-color: #323232;}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
+{background-color: #323232;}
+/* Boutons */
+.btn-primary,
+.btn-primary:hover{ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #fff; }
+
+.btn-primary.active{   color: rgba(255, 255, 255, 0.75); }
+.btn-primary {
+  background-color: #323232;
+  background-image: -moz-linear-gradient(top, #323232, #000);
+  background-image: -ms-linear-gradient(top, #323232, #000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#323232), to(#000));
+  background-image: -webkit-linear-gradient(top, #323232, #000);
+  background-image: -o-linear-gradient(top, #323232, #000);
+  background-image: linear-gradient(top, #323232, #000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#323232', endColorstr='#000', GradientType=0,enabled=true);
+  border-color: #323232 #323232 #000;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] { background-color: #000; }
+
+.btn-primary:active,
+.btn-primary.active { background-color: #000 \9; }
+
+
+/* Nav bar */ 
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu 
+{background-color: #323232;}
+.navbar .dropdown-menu a:hover {background:#000;}
+
+
+/* light color */ 
+.detail .highlight,#detail_feature ul,#detail_about,#footer,#header,.slider-caption, .navbar-inner
+{background:#dac03f;}
+.navbar .nav > li { border-color:#dac03f;}
+
+/* Dark color */
+.select-group .btn.dropdown-toggle,.sliderkit-panel .slider-caption p.price, .thumbnail p.price, .thumbnail p.cat ,.jq-slider .inner.default ,.navbar .container
+{background:#a88900;}
+.select-group .btn.dropdown-toggle
+{border-color:#a88900}
+.navbar .nav li > a:hover .caret
+{border-top-color:#a88900}
+#contentzone p.pdt_count,#contentzone h2.ttre,h1,h2,h3,h4,h5,#footer .col .ttre,#footer .copyright,#contact-box .ttre,.slider-caption p.desc
+{color:#a88900}
+
+/* Image */
+[class^="icon-"],
+[class*=" icon-"],
+.order-controls .m-btn
+{background-image:url(../img/sprite4.png);}
+/* Altern */
+#contact-box, #welcome-box,#footer .col,#footer .col:first-child
+{border-color:#a88900}
+/* White */
+#footer a ,#footer,#welcome-box p { color: #fff; }
