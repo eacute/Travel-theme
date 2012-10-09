@@ -15,7 +15,6 @@
 
 	<link type="text/css" href="../webroot/css/bootstrap.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/slideshow-core.css" rel="stylesheet">
-	<link type="text/css" href="../webroot/css/jqslider.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/ays.css" rel="stylesheet">
 	<!--[if IE 8]>
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
@@ -23,11 +22,10 @@
 	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
 	
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f6e9cb7474031f4"></script>
 	<script type="text/javascript" src="../webroot/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/jquery.placeholder.min.js"></script>
-	<script type="text/javascript" src="../webroot/js/jqslider.js"></script>
-	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/jquery.slideshow.pack.js"></script>
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
@@ -121,7 +119,7 @@
 			
 					<div class="highlight clearfix">
 		                <div class="price_holder"><p class="price"><span class="old">12 €</span>  <span>10 €</span></p></div>
-		                <h3 class="cat"><i class="icon-promo"></i><span>excursion</span></h3>
+		                <h2 class="cat"><i class="icon-promo"></i><span>excursion</span></h2>
 						<h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		                <div class="btn_contact"><a data-toggle="modal" title="Contactez le vendeur"  class="btn btn-xlarge  btn-primary" href="modal.php">Nous contacter</a></div>
 		            </div>
@@ -173,10 +171,10 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<ul class="nav nav-tabs" id="productTab">
-								<li class="active"><a href="#desc">Descriptif</a></li>
-								<li><a href="#plus">Plus produit</a></li>
-								<li><a href="#promotion">Promotion</a></li>
-								<li><a href="#localisation">Localisation</a></li>
+								<li class="active"><a href="#desc">Descriptif</a> <span class="arrow down"></span></li>
+								<li><a href="#plus">Plus produit</a><span class="arrow down"></span></li>
+								<li><a href="#promotion">Promotion</a><span class="arrow down"></span></li>
+								<li><a href="#localisation">Localisation</a><span class="arrow down"></span></li>
 							</ul>
 	
 							<div class="tab-content">
@@ -188,9 +186,23 @@
 									elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat, sed diam voluptua. Justo duo dolores et ea rebum. Stet clita
 									asd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-									eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-									<p class="readmore"><a  data-toggle="modal" class="btn btn-primary" title="" href="readmore.php">En savoir plus</a></p>
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+									<p class="readmore"><a data-toggle="collapse" data-target="#readmore-box" class="btn btn-primary" title="" href="javascript:void(0)">En savoir plus</a></p>
+									
+									<div id="readmore-box" class="collapse">
+										<div class="detail_desc">
+											<h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invid</h3>
+											<p class="desc">Magna aliquyam erat, sed diam voluptua. At vero eos et accu sam et justo duo
+											dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.
+											Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+											elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+											aliquyam erat, sed diam voluptua. Justo duo dolores et ea rebum. Stet clita
+											asd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+											eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+										</div>
+									</div>
+																		
 								</div>
 								<div class="tab-pane" id="plus">...</div>
 								<div class="tab-pane" id="promotion">...</div>

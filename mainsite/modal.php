@@ -4,7 +4,7 @@
 </div>
 <div class="modal-body">
 	<div id="contact-publisher" >
-		<p>Téléphone :<b>02-98-85-17-17</b></p>
+		<p>Téléphone : <b>02-98-85-17-17</b></p>
 		<p>ou envoyer un message</p>
 		<form id="form-contact-publisher" method="post" action="#">
 	          <div class="control-group">

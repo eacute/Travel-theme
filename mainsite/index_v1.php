@@ -1,5 +1,4 @@
 <?php include './data/theme_front-data.php' ?>
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
@@ -23,11 +22,10 @@
 	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
 	
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f6e9cb7474031f4"></script>
 	<script type="text/javascript" src="../webroot/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/jquery.placeholder.min.js"></script>
-	<script type="text/javascript" src="../webroot/js/jqslider.js"></script>
-	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/jquery.slideshow.pack.js"></script>
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
