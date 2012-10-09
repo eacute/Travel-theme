@@ -295,7 +295,7 @@
 					<div class="form-actions">
 					        <input type="submit" class="btn btn-primary" value="Valider"/>
 				        </div>
-				         <p class="readmore">&#8594; <a  title="" href="#">Voir toutes les offres</a></p>
+				         <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 				</form>
 			</div>
 			<div id="box-book" class="">

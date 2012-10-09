@@ -165,7 +165,7 @@
 						<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios" value="option1"> Recherchez uniquement parmi les promotions </label>
 			        </div>
 			        
-					 <p class="readmore">&#8594; <a  title="" href="#">Voir toutes les offres</a></p>
+					 <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 
 					<div class="form-actions">
 						<input type="submit" class="btn btn-primary" value="Valider"/>
