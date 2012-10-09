@@ -173,7 +173,7 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<div class="detail_desc">
-								<h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invid</h3>
+								<h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invid</h2>
 								<p class="desc">Magna aliquyam erat, sed diam voluptua. At vero eos et accu sam et justo duo
 								dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.
 								Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing

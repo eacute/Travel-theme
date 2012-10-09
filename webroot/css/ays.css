@@ -172,8 +172,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .slider-caption {position: absolute; left: 0; top: 0; background:#000000; color:#fff;}
 .slider-caption p.desc {color: #9b9b9b; font-weight: normal;}
 .slider-caption {right:0; bottom:0; height:260px; width:240px; padding:20px;}
-.slider-caption p.price {position:absolute;color:#fff;text-transform: uppercase; width:90px; height:90px;padding: 0px ;  left: 235px; top: 20px; font-size: 24px;line-height: 24px; text-align: center;background-color: #61b5d7; -moz-border-radius:45px;
-  -webkit-border-radius:45px; border-radius:45px;}
+.slider-caption p.price {position:absolute;color:#fff;text-transform: uppercase; width:91px; height:90px;padding: 0px; left: 235px; top: 20px; font-size: 24px;line-height: 24px; text-align: center;background:transparent url(../img/sprite.png) 100% 0px; display:block;z-index:20}
 .slider-caption p.price small {color:#fff; font-size: 13px; line-height: 13px; margin-top:25px;display:inline-block;}
 .slider-caption  .cat {font-family: Ubuntu Condensed;font-size: 18px; font-weight: normal; color: #61b5d7;margin-bottom:10px;line-height:16px;text-transform: uppercase; }
 .slider-caption  .cat span {color: #fff;margin-left:1px;padding-left:5px;border-left:1px solid #61b5d7; color:#61b5d7}
@@ -416,7 +415,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .single .highlight .btn_contact{position:absolute;top:20px;right:0;}
 .detail_produit .cat {margin: 0 0 0 0;padding: 0 ; color: #61b5d7; font-weight: normal; font-family: Ubuntu Condensed !important; font-size: 18px; text-transform: uppercase;;}
 .detail_produit .cat span{margin: 0 0 0 10px; padding: 0 0 0 10px;border-left:1px solid  #61b5d7;}
-.price_holder { float:left;width:88px; height:88px;padding: 0px ;text-align: center;background-color: #61b5d7; -moz-border-radius:45px; -webkit-border-radius:45px; border-radius:45px; vertical-align:middle;margin: 0 10px 0 0; display:table; }
+.price_holder { float:left;width:91px; height:90px;padding: 0px ;text-align: center;background-color: #61b5d7;background:transparent url(../img/sprite.png) 100% 0px; vertical-align:middle;margin: 0 10px 0 0; display:table; }
 .price_holder .price {display:table-cell;font-family: Ubuntu Condensed; font-weight: normal; font-size:24px; line-height: 24px;height: auto;margin: 0;color:#fff;vertical-align:middle;color:#fff;text-transform: uppercase;}
 .price_holder .price .old{display:block;}
 .price .old{text-decoration: line-through; }
@@ -475,7 +474,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 
 /*DETAIL ABOUT*/
 .detail_about #box_desc .detail_desc,.detail_about #box_desc .detail_desc p{font-size:13px;}
-.detail_about #box_desc .detail_desc h3{margin-bottom:15px;font-size:16px;line-height:125%;}
+.detail_about #box_desc .detail_desc h2,.detail_about #box_desc .detail_desc h3{margin-bottom:15px;font-size:16px;line-height:125%;}
 #detail_about {padding:15px 0;width:280px}
 #detail_about ul{padding: 0;margin:0;}
 #detail_about li{list-style: none;display:block;padding:0;margin:5px 0 5px 0;font-weight:600;font-family: Lato;font-weight:normal; }
@@ -519,7 +518,8 @@ p.pdt_count {font-size: 18px; color: #61b5d7; float:right;margin-top:28px;}
 
 /*MODAL CONTACT FORM*/
 #contact-publisher p , #form-contact-publisher label{font-size:14px;}
-
+#contact-publisher{padding:0 15px;}
+#contact-publisher input.span2,#contact-publisher textarea.span2,#contact-publisher .uneditable-input.span2 { width: 490px; }
 
 /*FOOTER*/
 #footer {background: #202020; padding: 0; font-family: Lato;}
