@@ -454,9 +454,10 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 #productTabWrap{width: 430px;float:left;border-right:1px solid  #ccc;padding-right:30px;min-height: 300px;}
 #productTab{border:none;}
 #productTab.nav-tabs > li {border: none; position:relative;}
-#productTab.nav-tabs > li > a {border: none; color:#fff; font-family: Ubuntu Condensed; font-size: 14px; padding: 15px; border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;background-color: #61b5d7;}
-#productTab.nav-tabs > li.active > a,#productTab.nav-tabs > li.active > a:hover { color: white; background: #000; }
-#productTab.nav-tabs > li > a:hover {;background-color: #fff; color: #000;;}
+#productTab.nav-tabs > li h3 {border: none; display:block;margin:0px;padding:0px;line-height: 16px; font-size:14px;font-weight:normal;}
+#productTab.nav-tabs > li a {border: none;display: block; color:#fff; font-family: Ubuntu Condensed; font-size: 14px; padding: 15px; border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;background-color: #61b5d7;margin-right:1px}
+#productTab.nav-tabs > li.active   a,#productTab.nav-tabs > li.active   a:hover { color: white; background: #000; }
+#productTab.nav-tabs > li a:hover {;background-color: #fff; color: #000;text-decoration:none;}
 #productTab.nav-tabs > li .arrow {display:none}
 #productTab.nav-tabs > li.active .arrow {position:absolute;bottom:-5px;left:45%;top:auto;display:block;}
 .tab-content {border: none;}
@@ -539,4 +540,3 @@ p.action-message {     margin: 18px 0 8px; }
 #footer .gmap_address {margin-left:20px;}
 #footer .gmap_address {}
 #footer a {color: #5EB0D1;}
-#footer {}
