@@ -92,82 +92,102 @@
 				</div>
 				<div class="sliderkit-panels">
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/440/300/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/440/300/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/440/300/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/440/300/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
+					</div>
+					<div class="sliderkit-panel">
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
+							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
+							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
+						</div>
+					</div>
+					<div class="sliderkit-panel">
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
+							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
+							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
+						</div>
+					</div>
 					</div>
 				</div>
-			</div>
-
-			<div id="search-form" class="box">
-				<form class="clearfix">
-					<h2 class="ttre">Rechercher une destination</h2>
-				
-					<div class="control-group">
-						<div class="controls">
-							<select name="dest" id="dest">
-								<option selected >Votre destination</option>
-								<option>E-mail</option>
-								<option value="With Value">Téléphone</option>
-							</select>
+				<div id="search-form" class="box">
+					<form class="clearfix">
+						<h2 class="ttre">Rechercher une destination</h2>
+					
+						<div class="control-group">
+							<div class="controls">
+								<select name="dest" id="dest">
+									<option selected >Votre destination</option>
+									<option>E-mail</option>
+									<option value="With Value">Téléphone</option>
+								</select>
+							</div>
 						</div>
-					</div>
+									
+						<div class="control-group">
+							<div class="controls">
+								<select name="prix" id="prix">
+									<option selected >Prix</option>
+									<option value="With Value">E-mail</option>
+									<option value="With Value">Téléphone</option>
+								</select>
+							</div>
+						</div>
 								
-					<div class="control-group">
-						<div class="controls">
-							<select name="prix" id="prix">
-								<option selected >Prix</option>
-								<option value="With Value">E-mail</option>
-								<option value="With Value">Téléphone</option>
-							</select>
-						</div>
-					</div>
-							
-					<div class="control-group">
-						<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios" value="option1"> Recherchez uniquement parmi les promotions </label>
-			        </div>
-			        
-					 <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
+						<div class="control-group">
+							<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios" value="option1"> Recherchez uniquement parmi les promotions </label>
+				        </div>
+				        
+						 <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 
-					<div class="form-actions">
-						<input type="submit" class="btn btn-primary" value="Valider"/>
-				    </div>
-				</form>
+						<div class="form-actions">
+							<input type="submit" class="btn btn-primary" value="Valider"/>
+					    </div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
