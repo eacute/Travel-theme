@@ -99,7 +99,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 
 /*HEADER*/
 #header{color:#939393; }
-#header .container{background:#000;min-height:80px;position:relative;}
+#header .container{background:#000; min-height:80px; padding-top: 20px; position:relative;}
 #header a{color:#5eb0d1;}
 #logo-box{min-width: 175px; min-height: 60px; line-height : 60px;;position:absolute;top:20px;left:20px;font-size:28px;}
 #logo-box img {;vertical-align:middle;}
@@ -113,7 +113,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
     height: 0;
     left: -10px;
     position: absolute;
-    top: 123px;
+    top: 130px;
     width: 0;
     z-index: 10;
 }
@@ -127,7 +127,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
     position: relative;
     width: 0;
     z-index: 10;
-    top: 40px;
+    top: 47px;
 }
 /*BOTTOM FOLD*/
 #teaser_zone .container:before {
@@ -163,7 +163,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #contact-box p.desc,#welcome-box p.desc{ font-size: 11px;}
 #welcome-box {position: relative;}
 #header #welcome-box {width:340px;}
-#welcome-box .ttre,#contact-box .ttre, #share-box .ttre {font-size:12px;  color: #fff; text-transform: uppercase; font-weight: 800; margin-bottom: 0px;}
+#welcome-box .ttre,#contact-box .ttre, #share-box .ttre {font-size:12px;  color: #fff; text-transform: uppercase; font-weight: 800; margin-bottom: 0px; line-height: 0.8em; margin-bottom: 0.8em;}
 #welcome-box .readmore {margin-bottom:0;}
 #share-box {padding-right: 20px;}
 .social_pages a, #share-box a {display:inline-block; width: 20px; height: 20px;}
@@ -178,9 +178,9 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .navbar .icon span{display:none;}
 .navbar li.icon i{vertical-align:top;height:19px}
 .navbar .container {background: #000; width: 960px;}
-.navbar .nav {margin-left: 20px; float: right; }
+.navbar .nav {margin-left: 20px; float: left; }
 .navbar .nav > li { line-weight:20px;font-size:13px;}
-.navbar .nav > li > a {color:#939393;}
+.navbar .nav > li > a {color:#939393; font-weight: 600;}
 .navbar .nav > li > a:hover,.navbar .nav .active > a,  .navbar .nav .active > a:hover,.navbar .nav .active > .dropdown-toggle:hover, .navbar .nav .active > .dropdown-toggle {background-color: #335486; color: #fff;}
 .navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle  {background-color: #00B6D9; color:#fff;}
 .navbar .dropdown-menu:after ,.navbar .dropdown-menu:before { display: none;  border: none;}
