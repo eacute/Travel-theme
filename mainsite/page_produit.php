@@ -171,10 +171,10 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<ul class="nav nav-tabs" id="productTab">
-								<li class="active"><a href="#desc">Descriptif</a> <span class="arrow down"></span></li>
-								<li><a href="#plus">Plus produit</a><span class="arrow down"></span></li>
-								<li><a href="#promotion">Promotion</a><span class="arrow down"></span></li>
-								<li><a href="#localisation">Localisation</a><span class="arrow down"></span></li>
+								<li class="active"><h3><a href="#desc">Descriptif</a></h3><span class="arrow down"></span></li>
+								<li><h3><a href="#plus">Plus produit</a></h3><span class="arrow down"></span></li>
+								<li><h3><a href="#promotion">Promotion</a></h3><span class="arrow down"></span></li>
+								<li><h3><a href="#localisation">Localisation</a></h3><span class="arrow down"></span></li>
 							</ul>
 	
 							<div class="tab-content">

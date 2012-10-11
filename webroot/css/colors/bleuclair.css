@@ -1,0 +1,100 @@
+a,.order-controls label
+{color: #36B3D9;}
+a:hover
+{color: #36B3D9;}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
+{background-color: #36B3D9;}
+/* Boutons */
+.btn-primary,
+.btn-primary:hover{}
+
+.btn-primary.active{color: rgba(255, 255, 255, 0.75); }
+.btn-primary {
+  text-shadow: none;
+  background-color: #36b3d9;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] { background-color: #83c3d7; }
+.btn-primary:active,
+.btn-primary.active,
+#box_newsletter button[name="newsletter_submit"] { background-color: #36B3D9;}
+
+#header {border-color: #83c3d7; background: white !important;}
+
+#header a,
+#search-form .readmore a, 
+#search-form .readmore a:hover,
+#carousel-home .sliderkit-nav-clip a {color: #36b3d9;}
+
+/* Image */
+[class^="icon-"],
+[class*=" icon-"],
+.order-controls .m-btn,
+.slider-caption p.price,
+.price_holder .price {
+	background-image: url(../../img/sprite_bleuclair.png);
+}
+
+/* Nav bar */ 
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu 
+{background-color: #36B3D9;}
+.navbar .dropdown-menu a:hover {background:#222D80;}
+.navbar .nav > li > a,
+#footer h3,
+#footer .col .ttre {color: #222d80; text-shadow: none;}
+
+
+/* light color */ 
+#detail_feature ul,#footer,#header, .navbar-inner{background:#83c3d7;}
+.navbar .nav > li { border-color:#b7d3ee;}
+.slider-caption {background: black;}
+
+/* Dark color */
+.select-group .btn.dropdown-toggle,
+.sliderkit-panel, 
+.thumbnail p.price, 
+.thumbnail p.cat,
+.jq-slider .inner.default,
+.navbar .container {}
+.select-group .btn.dropdown-toggle {}
+
+#box-featured .thumbnail p.price,
+.liste_produits .thumbnail p.price,
+.search_results .thumbnail p.price {
+	background: #83c3d7;
+}
+
+#contentzone p.pdt_count,
+#header h1.ttre,
+#header h2.ttre,
+.slider-caption .cat span,
+#contentzone h2.ttre,
+.box_title,
+.thumbnail .ttre a,
+h1,h2,h3,h4,h5,
+#footer .copyright,
+#contact-box .ttre
+{color:#83c3d7}
+
+/* Darkness color */
+label.radio
+{color: #202020;}
+
+
+/* Altern */
+#contact-box, #welcome-box,#footer .col,#footer ,#footer .container
+{border-color:#c7e4ff}
+/* White */
+.sliderkit-btn a,
+#footer a,
+#footer,
+#footer .copyright { color: white; }
