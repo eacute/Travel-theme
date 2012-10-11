@@ -1,0 +1,106 @@
+a,.order-controls label,
+.listing_controls .ordering_wrap > div a {color: #6d96cc;}
+a:hover
+{color: #6d96cc;}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
+{background-color: #6d96cc;}
+/* Boutons */
+.btn-primary,
+.btn-primary:hover{}
+
+.btn-primary.active{color: rgba(255, 255, 255, 0.75); }
+.btn-primary {
+  text-shadow: none;
+  background-color: #6d96cc;
+  background-image: none;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] { background-color: #1a215e; }
+.btn-primary:active,
+.btn-primary.active,
+#box_newsletter button[name="newsletter_submit"] { background-color: #6d96cc;}
+
+#header {border-color: #1a215e; background: white !important;}
+
+
+#search-form .readmore a, 
+#search-form .readmore a:hover,
+#carousel-home .sliderkit-nav-clip a,
+.thumbnail .cat,
+.thumbnail p.date_from,
+.row .thumbnail p.price,
+.row #box-featured p.price,
+.slider-caption .cat span,
+.breadcrumb .divider,
+ul.breadcrumb a,
+ul.breadcrumb .active,
+#contentzone p.pdt_count,
+.detail_produit .cat span {color: #6d96cc;}
+#teaser_zone .cat span,
+#contentzone .cat span,
+.thumbnail p.date_from   {border-color: #6d96cc;}
+
+[class^="icon-"],
+[class*=" icon-"],
+.order-controls .m-btn,
+.slider-caption p.price,
+.price_holder .price {
+	background-image: url(../../img/sprite_bleufonce.png) ;
+}
+
+/* Nav bar */ 
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
+#productTab.nav-tabs > li a
+{background-color: #6d96cc;}
+.navbar .dropdown-menu a:hover {background:#1a215e;}
+.navbar .nav > li > a,
+#footer h3,
+#footer .col .ttre {color: #6d96cc; text-shadow: none;}
+
+
+/* light color */ 
+#detail_feature ul,#footer,#header, .navbar-inner{background:#1a215e;}
+.navbar .nav > li { border-color:#b7d3ee;}
+.slider-caption {background: black;}
+
+/* Dark color */
+.select-group .btn.dropdown-toggle,
+.sliderkit-panel, 
+.thumbnail p.price, 
+.thumbnail p.cat,
+.jq-slider .inner.default,
+.navbar .container {}
+.select-group .btn.dropdown-toggle {}
+
+#box-featured .thumbnail p.price,
+.liste_produits .thumbnail p.price,
+.search_results .thumbnail p.price {
+	background: #1a215e;
+}
+
+#header h1.ttre,
+#header h2.ttre,
+#contentzone h2.ttre,
+.box_title,
+.thumbnail .ttre a,
+h1,h2,h3,h4,h5,
+#footer .copyright,
+#contact-box .ttre
+{color:#1a215e}
+
+/* Darkness color */
+label.radio
+{color: #202020;}
+
+
+/* Altern */
+#contact-box, #welcome-box,#footer .col,#footer .container
+{border-color:#c7e4ff}
+/* White */
+.sliderkit-btn a,
+#footer a,
+#footer,
+#footer .copyright { color: white; }
