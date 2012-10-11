@@ -202,7 +202,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 /*TEASER ZONE*/
 #teaser_zone .container{width: 980px;}
 #teaser_zone { position: relative; z-index: 0;}
-#teaser_zone #search-form {width:220px; float:left; height:340px; background: #115388;}
+#teaser_zone #search-form {width:220px; float:left; height:340px;}
 #teaser_zone #sub_teaser {background:#757b96;border-top: solid 1px white;}
 #teaser_zone #box-book {padding: 0; position: relative;  margin: 0 auto;width:960px;text-align: right;}
 #teaser_zone #box-book .ttre {display:block;line-height: 49px; font-family: Lato; font-style: italic; font-weight: normal; font-size: 18px; text-transform: uppercase; color: white;padding: 0 250px 0 0; }
@@ -212,7 +212,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 /*CAROUSEL*/
 #carousel-home {height: 380px; width: 720px; float:right; background:#009bb8; }
 #carousel-home .sliderkit-panel img {margin-left: 280px; display:block;}
-.slider-caption {position: absolute; left: 0; top: 0; background:#009bb8; color:#fff;}
+.slider-caption {position: absolute; left: 0; bottom: 0; background:#009bb8; color:#fff;}
 .slider-caption p.desc {color: #9b9b9b; font-weight: normal;}
 .slider-caption {right:0; bottom:0; height:260px; width:240px; padding:20px;}
 .slider-caption p.price {position:absolute;color:#fff;text-transform: uppercase; width:91px; height:90px;padding: 0px; left: 235px; top: 20px; font-size: 24px;line-height: 24px; text-align: center;background:transparent url(../img/sprite.png) 100% 0px; display:block;z-index:20}
@@ -376,7 +376,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 /* Search FORM*/
 #search-form,
 #box-book {padding: 20px;}
-#search-form {background: url(../img/world-map.png) no-repeat center center white;}
+#search-form {background: #115388 url(../img/world-map.png) no-repeat center center;}
 #search-form .ttre{margin-bottom: 17px; line-height: 20px; font-size: 18px;font-family: Lato; font-weight:normal;text-transform:uppercase; font-style: italic;}
 #search-form .dropdown-menu {min-width: 100%;}
 #search-form form {margin: 0;}
