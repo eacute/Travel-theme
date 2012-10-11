@@ -20,7 +20,6 @@ button.rpl{border:none;background:transparent;}
 
 a { color:#61b5d7; }
 
-
 .btn {
 	border: none;
 	border-radius: 0px;
@@ -31,43 +30,33 @@ a { color:#61b5d7; }
 	text-shadow: none;
 
 }
-#box-book .btn-primary,.btn-primary{
-	background-image: linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -o-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -moz-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -webkit-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -ms-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(94,176,209)), color-stop(0.69, rgb(106,198,235)));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ac6eb', endColorstr='#5eb0d1', GradientType=0);
-	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+.btn-primary{
+	background-image: none;
+	filter: none;
 	background-color: #6AC6EB;
 	opacity: 1;
 }
+
 .btn-primary:hover,
 #box-book .btn-primary:hover,
 .btn-primary:active,
 #box-book .btn-primary:active,
 .btn-primary.active
 #box-book .btn-primary.active
-{background: #6ac6eb; }
+{background: #2592d5; text-shadow: none;}
 
 .btn-success {
-	background-image: linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -o-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -moz-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -webkit-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -ms-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.36, rgb(133,181,3)), color-stop(0.65, rgb(168,198,34)));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#85b503', endColorstr='#a8c622', GradientType=0);
-	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	background-image: none;
+	filter: none;
 	text-shadow: none;
 	background-color: #a8c622;
 	opacity: 1;
 }
+
 .btn-success:hover,
 .btn-success:active,
 .btn-success.active
-{background: #a9c622;}
+{background: #8ea71d;text-shadow: none;}
 
 .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: 960px; }
 
@@ -101,7 +90,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #header .container{min-height:80px;position:relative;}
 #logo-box{min-width: 260px; min-height: 120px; line-height : 120px;;position:absolute;top:0px;left:0;font-size:28px;}
 #logo-box img {;vertical-align:middle;}
-
+#logo-box a:hover {;text-decoration:none;}
 #header .colwrapper{display:table;border-collapse: collapse;margin-bottom: 20px;}
 #contact-box,#header #welcome-box,#share-box{border-left: 1px solid #e6e6e6;padding: 15px 20px 0px 20px;display:table-cell}
 #contact-box p.desc,#welcome-box p.desc{ font-size: 14px;}
@@ -349,7 +338,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .slider2#carousel-home .sliderkit-panel .slider-caption .desc {font-size: 16px; font-weight: normal; line-height: 20px;}
 
 .row {margin-bottom: 20px;}
-.row #box-featured {width: 100%; margin: 0;}
+.row #box-featured {width: 100%; margin: 0;margin-bottom: 20px;}
 .row #box-featured .thumbnails,.row #box-featured .thumbnail {margin: 0;}
 .row #box-featured .thumbnails > li {width:490px;margin:0;padding: 0;}
 .row #box-featured .caption p.date_from, .row #box-featured .caption p.price, .row #box-featured .caption .cat {display: inline-block;background: none;line-height:125%; height:auto;width:auto;padding:0 0 0 5px;margin: 0  0 5px 5px;float:none;border-left:1px solid #202020 }
@@ -509,8 +498,7 @@ p.pdt_count {font-size: 18px; color: #61b5d7; float:right;margin-top:28px;}
 #box_newsletter input {font-family: Lato; font-weight: normal; font-size: 10px;}
 #box_newsletter h3 {color: white; line-height: 12px; margin-bottom: 10px;}
 #box_newsletter input {color: #939393; padding: 7px 10px; width: 117px; margin: 0; margin-right: 8px}
-#box_newsletter button[name="newsletter_submit"] {border: none; color: white; font-family: Ubuntu Condensed; font-size: 14px; font-weight: normal; line-height: 30px; padding: 0 10px;}
-#box_newsletter button:hover {background: #6AC6EB;}
+#box_newsletter button  {border: none; color: white; font-family: Ubuntu Condensed; font-size: 14px; font-weight: normal; line-height: 30px; padding: 0 10px;}
 
 /*MODAL CONTACT FORM*/
 #contact-publisher p , #form-contact-publisher label{font-size:14px;}

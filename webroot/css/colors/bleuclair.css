@@ -10,30 +10,33 @@ a:hover
 
 .btn-primary.active{color: rgba(255, 255, 255, 0.75); }
 .btn-primary {
-  text-shadow: none;
   background-color: #36b3d9;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] { background-color: #83c3d7; }
-.btn-primary:active,
-.btn-primary.active,
-#box_newsletter button[name="newsletter_submit"] { background-color: #36B3D9;}
 
-#header {border-color: #83c3d7; background: white !important;}
+.btn-primary:active,
+.btn-primary.active
+{ background-color: #36B3D9;}
+#box_newsletter button:hover{ background-color: #309cbd;}
+
+#header {border-color: #83c3d7}
 
 #header a,
 #search-form .readmore a, 
 #search-form .readmore a:hover,
 #carousel-home .sliderkit-nav-clip a {color: #36b3d9;}
+
+/* Book box */
+#teaser_zone #sub_teaser,#box-book{ background-color: #b6dae6;}
+#box-book .btn-success{ background-color: #34d0cc;}
+#box-book .btn-primary{ background-color: #35b3d9;}
+#box-book .btn-primary:hover{ background-color: #2787b0;}
+#box-book .btn-success:hover{ background-color: #26a5a1;;}
+
 
 /* Image */
 [class^="icon-"],
@@ -54,7 +57,7 @@ a:hover
 
 
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#83c3d7;}
+#detail_feature ul,#footer, .navbar-inner{background:#83c3d7;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 

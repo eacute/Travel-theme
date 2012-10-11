@@ -20,7 +20,6 @@
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
 	<![endif]-->
 	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
-	<link type="text/css" href="../webroot/css/colors/violet.css" rel="stylesheet">
 
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
