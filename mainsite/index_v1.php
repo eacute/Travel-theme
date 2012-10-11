@@ -80,7 +80,7 @@
 		<div class="container">
 			<div id="carousel-home" class="sliderkit">
 				<div class="sliderkit-nav clearfix">
-					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left"> <</a></div>
+					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left"> &lt;</a></div>
 					<div class="sliderkit-nav-clip">
 						<ul class="clearfix">
 							<li><a href="#" title="Photo sample 01">•</a></li>
@@ -89,7 +89,7 @@
 							<li><a href="#" title="Photo sample 04">•</a></li>
 						</ul>
 					</div>
-					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">> </a></div>
+					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">&gt; </a></div>
 				</div>
 				<div class="sliderkit-panels">
 					<div class="sliderkit-panel">
