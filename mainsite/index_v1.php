@@ -178,9 +178,10 @@
 						</div>
 								
 						<div class="control-group">
-							<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios" value="option1"> Recherchez uniquement parmi les promotions </label>
+							<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios" value="option1" > Recherchez uniquement parmi les promotions </label>
 				        </div>
-				        
+					
+					 
 						 <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 
 						<div class="form-actions">
