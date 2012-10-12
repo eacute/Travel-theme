@@ -73,7 +73,7 @@ ul.breadcrumb .active,
 .navbar .dropdown-menu a:hover {background:#bf1c1c;}
 .navbar .nav > li > a,
 #footer h3,
-#footer .col .ttre ,#footer .col a {color: #330506; text-shadow: none;}
+#footer .col .ttre ,#footer .col a {color: #202020; text-shadow: none;}
 
 /* light color */ 
 #detail_feature ul,#footer, .navbar-inner{background:#bf1c1c;}
