@@ -159,7 +159,7 @@
 					
 						<div class="control-group">
 							<div class="controls">
-								<select name="dest" id="dest">
+								<select name="dest" id="dest" class="span1" >
 									<option selected >Votre destination</option>
 									<option>E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -169,7 +169,7 @@
 									
 						<div class="control-group">
 							<div class="controls">
-								<select name="prix" id="prix">
+								<select name="prix" id="prix" class="span1" >
 									<option selected >Prix</option>
 									<option value="With Value">E-mail</option>
 									<option value="With Value">Téléphone</option>
