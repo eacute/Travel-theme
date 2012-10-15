@@ -20,7 +20,7 @@
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
 	<![endif]-->
 	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
-	<link type="text/css" href="../webroot/css/colors/Xviolet.css" rel="stylesheet">
+	<link type="text/css" href="../webroot/css/colors/rouge.css" rel="stylesheet">
 
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
@@ -164,7 +164,7 @@
 		<div class="container">
 			<div id="content">
 
-				<div class="row">
+				<div class="row nomargin">
 					<div id="box-featured" class="box">
 						<h2 class="box_title">NOTRE SÉLECTION<a class="pull-right btn btn-primary" title="" href="#">Voir toutes les offres</a></h2>
 						<ul class="thumbnails">
@@ -220,7 +220,7 @@
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row nomargin">
 					<div id="box-news" class="box span1">
 						<h2 class='box_title'>Notre actualité<a class="pull-right btn btn-primary" title="" href="#">Toutes les actualités</a></h2>
 						<ul class="thumbnails">

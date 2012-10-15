@@ -19,12 +19,21 @@ a:hover
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] { background-color: #1a215e; }
+
 .btn-primary:active,
-.btn-primary.active,
-#box_newsletter button[name="newsletter_submit"] { background-color: #6d96cc;}
+.btn-primary.active
+{ background-color: #6d96cc;}
 
-#header {border-color: #1a215e; background: white !important;}
+#header {border-color: #1a215e}
 
+/* Book box */
+#teaser_zone #sub_teaser,#box-book{ background-color: #5d759b;}
+#box-book .btn-success{ background-color: #004370;}
+#box-book .btn-primary{ background-color: #6d96cc;}
+#box-book .btn-primary:hover{ background-color: #506ea1;}
+#box-book .btn-success:hover{ background-color: #003152;;}
+
+#box_newsletter button:hover{ background-color: #506ea1;}
 
 #search-form .readmore a, 
 #search-form .readmore a:hover,
@@ -62,7 +71,7 @@ ul.breadcrumb .active,
 
 
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#1a215e;}
+#detail_feature ul,#footer, .navbar-inner{background:#1a215e;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 

@@ -18,12 +18,23 @@ a:hover
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
-.btn-primary[disabled] { background-color: #f1502f; }
-.btn-primary:active,
-.btn-primary.active,
-#box_newsletter button[name="newsletter_submit"] { background-color: #fcbb20;}
+.btn-primary[disabled]
+{ background-color: #f1502f; }
 
-#header {border-color: #f1502f; background: white !important;}
+.btn-primary:active,
+.btn-primary.active
+{ background-color: #fcbb20;}
+
+
+/* Book box */
+#teaser_zone #sub_teaser,#box-book{ background-color: #c5a284;}
+#box-book .btn-success{ background-color: #a85101;}
+#box-book .btn-primary{ background-color: #fcbb21;}
+#box-book .btn-success:hover{ background-color: #7d3b01;;}
+#box-book .btn-primary:hover{ background-color: #f28f18;}
+
+#box_newsletter button:hover{ background-color: #f28f18;}
+
 
 #search-form .readmore a, 
 #search-form .readmore a:hover,
@@ -38,9 +49,11 @@ ul.breadcrumb a,
 ul.breadcrumb .active,
 #contentzone p.pdt_count,
 .detail_produit .cat span {color: #fcbb20;}
+
+#header,
 #teaser_zone .cat span,
 #contentzone .cat span,
-.thumbnail p.date_from {border-color: #f1502f;}
+.thumbnail p.date_from{border-color: #f1502f;}
 
 .slider-caption .cat span {color: #f1502f;}
 
@@ -63,7 +76,7 @@ ul.breadcrumb .active,
 
 
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#f1502f;}
+#detail_feature ul,#footer, .navbar-inner{background:#f1502f;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 

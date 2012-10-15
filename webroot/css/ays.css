@@ -20,7 +20,6 @@ button.rpl{border:none;background:transparent;}
 
 a { color:#61b5d7; }
 
-
 .btn {
 	border: none;
 	border-radius: 0px;
@@ -31,36 +30,34 @@ a { color:#61b5d7; }
 	text-shadow: none;
 
 }
-#box-book .btn-primary,.btn-primary{
-	background: #ff0000;
+.btn-primary{
+	background-image: none;
+	filter: none;
+	background-color: #6AC6EB;
 	opacity: 1;
 }
+
 .btn-primary:hover,
 #box-book .btn-primary:hover,
 .btn-primary:active,
 #box-book .btn-primary:active,
-.btn-primary.active
+.btn-primary.active,
 #box-book .btn-primary.active{
 	background: #e50000;
+	 text-shadow: none;
 }
-
 .btn-success {
-	background-image: linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -o-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -moz-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -webkit-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -ms-linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.36, rgb(133,181,3)), color-stop(0.65, rgb(168,198,34)));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#85b503', endColorstr='#a8c622', GradientType=0);
-	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	background-image: none;
+	filter: none;
 	text-shadow: none;
 	background-color: #a8c622;
 	opacity: 1;
 }
+
 .btn-success:hover,
 .btn-success:active,
 .btn-success.active
-{background: #a9c622;}
+{background: #8ea71d;text-shadow: none;}
 
 .container, 
 .navbar-fixed-top .container, 
@@ -496,7 +493,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .row {margin-bottom: 20px;}
 .row #box-featured {width: 406px; margin: 0;}
 .row #box-featured .thumbnails,.row #box-featured .thumbnail {margin: 0;}
-.row #box-featured .thumbnails > li {width:490px;margin:0;padding: 0;}
+.row #box-featured .thumbnails > li {width:480px;margin:0;padding: 0;}
 .row #box-featured .caption p.date_from, .row #box-featured .caption p.price, .row #box-featured .caption .cat {display: inline-block;background: none;line-height:125%; height:auto;width:auto;padding:0 0 0 5px;margin: 0  0 5px 5px;float:none;border-left:1px solid #202020 }
 .row #box-featured .caption .cat{;margin-left:0 ;;border-left:none}
 .row #box-featured p.price{ color:#61b5d7}

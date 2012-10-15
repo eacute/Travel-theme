@@ -23,7 +23,7 @@ a:hover
 .btn-primary.active,
 #box_newsletter button[name="newsletter_submit"] { background-color: #8cba26;}
 
-#header {border-color: #464646; background: white !important;}
+#header {border-color: #464646}
 
 #search-form .readmore a, 
 #search-form .readmore a:hover,
@@ -62,7 +62,7 @@ ul.breadcrumb .active,
 
 
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#464646;}
+#detail_feature ul,#footer, .navbar-inner{background:#464646;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 

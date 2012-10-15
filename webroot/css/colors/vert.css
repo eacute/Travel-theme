@@ -4,31 +4,34 @@ a:hover
 {color: #21751b;}
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
 {background-color: #21751b;}
-/* Boutons */
-.btn-primary,
-.btn-primary:hover{}
+
 
 .btn-primary.active{color: rgba(255, 255, 255, 0.75); }
 .btn-primary {
   text-shadow: none;
-  background-color: #76dd6b;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
+  background-color: #6abf61;
   background-image: none;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
-.btn-primary[disabled] { background-color: #21751b; }
+.btn-primary[disabled]
+{ background-color: #21751b; }
+
 .btn-primary:active,
 .btn-primary.active,
-#box_newsletter button[name="newsletter_submit"] { background-color: #76dd6b;}
+{ background-color: #6abf61;}
 
-#header {border-color: #21751b; background: white !important;}
+/* Book box */
+#teaser_zone #sub_teaser,#box-book{ background-color: #1e412b;}
+#box-book .btn-success{ background-color: #4fb200;}
+#box-book .btn-primary{ background-color: #76dd6a;}
+#box-book .btn-success:hover{ background-color: #3a8600;;}
+#box-book .btn-primary:hover{ background-color: #56b64d;}
+
+#box_newsletter button:hover{ background-color: #56b64d; }
+
 
 #search-form .readmore a, 
 #search-form .readmore a:hover,
@@ -42,7 +45,9 @@ a:hover
 ul.breadcrumb a,
 ul.breadcrumb .active,
 #contentzone p.pdt_count,
-.detail_produit .cat span {color: #76dd6b;}
+.detail_produit .cat span {color: #6abf61;}
+
+#header,
 #teaser_zone .cat span,
 #contentzone .cat span,
 .thumbnail p.date_from {border-color: #21751b;}
@@ -60,15 +65,15 @@ ul.breadcrumb .active,
 /* Nav bar */ 
 .navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
 #productTab.nav-tabs > li a
-{background-color: #76dd6b;}
+{background-color: #6abf61;}
 .navbar .dropdown-menu a:hover {background:#21751b;}
 .navbar .nav > li > a,
 #footer h3,
-#footer .col .ttre {color: #76dd6b; text-shadow: none;}
+#footer .col .ttre {color: #6abf61; text-shadow: none;}
 
 
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#21751b;}
+#detail_feature ul,#footer, .navbar-inner{background:#21751b;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 

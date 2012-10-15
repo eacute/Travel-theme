@@ -13,11 +13,6 @@ a:hover
   text-shadow: none;
   background-color: #ce75bc;
   background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
 }
 .btn-primary:hover,
 .btn-primary:active,
@@ -25,11 +20,16 @@ a:hover
 .btn-primary.disabled,
 .btn-primary[disabled] { background-color: #5e1661; }
 .btn-primary:active,
-.btn-primary.active,
-#box_newsletter button[name="newsletter_submit"] { background-color: #ce75bc;}
+.btn-primary.active{ background-color: #ce75bc;}
 
-#header {border-color: #5e1661; background: white !important;}
+/* Book box */
+#teaser_zone #sub_teaser,#box-book{ background-color: #2d172e;}
+#box-book .btn-success{ background-color: #894e7e;}
+#box-book .btn-primary{ background-color: #cf75bd;}
+#box-book .btn-success:hover{ background-color: #64395c;;}
+#box-book .btn-primary:hover{ background-color: #a45591;}
 
+#box_newsletter button:hover{ background-color: #a45591; }
 
 #search-form .readmore a, 
 #search-form .readmore a:hover,
@@ -44,11 +44,11 @@ ul.breadcrumb a,
 ul.breadcrumb .active,
 #contentzone p.pdt_count,
 .detail_produit .cat span {color: #ce75bc;}
+
+#header  {border-color: #5e1661;} 
 #teaser_zone .cat span,
 #contentzone .cat span,
-.thumbnail p.date_from {border-color: #5e1661;}
-
-.slider-caption .cat span {color: #5e1661;}
+.thumbnail p.date_from {border-color: #ce75bc;}
 
 /* Image */
 [class^="icon-"],
@@ -56,7 +56,7 @@ ul.breadcrumb .active,
 .order-controls .m-btn,
 .slider-caption p.price,
 .price_holder .price
- {background-image: url(../../img/sprite_violet.png);}
+{background-image: url(../../img/sprite_violet.png);}
  
 /* Nav bar */ 
 .navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
@@ -67,9 +67,8 @@ ul.breadcrumb .active,
 #footer h3,
 #footer .col .ttre {color: #ce75bc; text-shadow: none;}
 
-
 /* light color */ 
-#detail_feature ul,#footer,#header, .navbar-inner{background:#5e1661;}
+#detail_feature ul,#footer, .navbar-inner{background:#5e1661;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 
@@ -101,7 +100,6 @@ h1,h2,h3,h4,h5,
 /* Darkness color */
 label.radio
 {color: #202020;}
-
 
 /* Altern */
 #footer .col,#footer .container
