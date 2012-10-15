@@ -20,7 +20,7 @@
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
 	<![endif]-->
 	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
-	<link type="text/css" href="../webroot/css/colors/violet.css" rel="stylesheet">
+	<link type="text/css" href="../webroot/css/colors/Xviolet.css" rel="stylesheet">
 
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
@@ -34,7 +34,8 @@
 <body class="">
 	<div id="header" class="clearfix">
 		<div class="container">
-			<div id="logo-box" class="pull-left"><a title="" href="#">COMPANY NAME</a></div>
+			
+			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
 			<div class="colwrapper pull-right clearfix">
 				<div id="contact-box">
 					<h2 class="ttre">Contactez-nous</h2>
@@ -70,21 +71,12 @@
 		</div>
 	</div>
 
-	<div id="sup_teaser_zone">
-		<div class="container">
-			<div id="welcome-box">
-				<h1 class="ttre">Company name</h1>
-				<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-				<p class="readmore"><a href="#" title="" class="pull-right btn btn-primary">Voir toutes les offres</a></p>
-			</div>
-		</div>
-	</div>
-	
+
 	<div id="teaser_zone" class="clearfix">
 		<div class="container">
-			<div id="carousel-home" class="sliderkit slider2">
+			<div id="carousel-home" class="sliderkit">
 				<div class="sliderkit-nav clearfix">
-					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left"> <</a></div>
+					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left"> &lt;</a></div>
 					<div class="sliderkit-nav-clip">
 						<ul class="clearfix">
 							<li><a href="#" title="Photo sample 01">•</a></li>
@@ -93,59 +85,77 @@
 							<li><a href="#" title="Photo sample 04">•</a></li>
 						</ul>
 					</div>
-					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">> </a></div>
+					<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">&gt; </a></div>
 				</div>
 				<div class="sliderkit-panels">
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/680/340/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
+							<h3 class="ttre"><a title="" href="#">Bali est magique lorem ipsum nec mergitur</a></h3>
+							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+						</div>
+					</div>
+					<div class="sliderkit-panel">
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/680/340/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/680/340/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
-						<img src="http://lorempixel.com/680/340/city" alt="">
-						<div class="slider-caption">
-							<p class="price"><small>à partir de</small>1890 €</p>
-							<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
+					</div>
+					<div class="sliderkit-panel">
+						<img src="http://lorempixel.com/480/260/city" alt="">
+						<p class="price"><small>à partir de</small>1890 €</p>
+						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<div class="slider-caption">	
+							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
+							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
+						</div>
+					</div>
 					</div>
 				</div>
+
+			<div class="welcome-box">
+				<h1 class="ttre">Company name</h1>
+				<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+				<p class="readmore"><a href="#" title="" class="pull-left btn btn-primary">Voir toutes les offres</a></p>
 			</div>
-		</div>
-		<div id="sub_teaser">
-			<div id="box-book" class="">
-				<h2 class="ttre">vous souhaitez réservez un vol ? faites votre choix :</h2>
-				<ul>
-					<li><a class="btn btn-success" href="#"><i class="icon-2ways large"></i>  Aller / Retour</a></li>
-					<li><a class="btn btn-primary"  href="#"><i class="icon-1way large"></i>  Aller simple</a></li>
-				</ul>
+
 			</div>
 		</div>
 	</div>
@@ -258,50 +268,49 @@
 
 	<div id="footer" class="notice clearfix">
 		<div class="container">
-			<div class="pull-left col col1">
-				<ul class="" >
-					<li><a title="" href="#">Accueil</a></li>
-					<li><a title="" href="#">Menu 01</a></li>
-					<li><a title="" href="#">Menu 02</a></li>
-					<li><a title="" href="#">Menu 03</a></li>
-					<li><a title="" href="#">Menu 04</a></li>
-					<li><a title="" href="#">Menu 05</a></li>
-					<li><a title="" href="#">Menu 06</a></li>
-					<li><a title="" href="#">Menu 07</a></li>
-				</ul>
-			</div>
-
-			<div class="pull-left col col2">
-				<div class="gmap" >
-					<a title="" href="#contact"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Place+d+armes,Luxembourg&amp;zoom=14&amp;size=200x120&amp;maptype=roadmap&amp;markers=size:mid%7Ccolor:red%7CPlace+d+armes,Luxembourg,CA&amp;sensor=true" alt="#"/></a>
-				</div>
-				<div class="gmap_address" >
-					<h5 class="ttre">Adressse : </h5>
-					<ul class="" >
-						<li>103 avenue de Vaugirard, 75009 Paris</li>
-						<li>Tel : 01.34.53.74.03 Fax : 01.34.54.34.67</li>
-					</ul>
-					<h5 class="ttre">Horaires d'ouverture : </h5>
-					<ul class="" >
-						<li>Lundi : 9h-18h, Mardi : 9h-18h, Mercredi : 9h-18h,</li>
-						<li>Jeudi : 9h-18h, Vendredi : 9h-18h, Samedi : 9h-18h</li>
-					</ul>
-				</div>
-
-			</div>
-
-			<div class="pull-left col col3">
-				<div id="box_newsletter">
-					<h3>Abonnez-vous à notre newsletter</h3>
-					<form action="#" method="post" class="newsletter_form">
-						<input type="text" name="newsletter_email" class="input-small"  placeholder="Votre email" />
-						<button class="btn btn-primary" name="newsletter_submit" type="button">Validez</button>
-					</form>
-				</div>
-				<ul class="" >
-					<li><a title="" href="#">Mentions légales</a> <p class="copyright">© logotype 2012</p></li>
-				</ul>
-			</div>
+			  <div class="pull-left col col1">
+			    <div id="secondary_menu" class="clearfix">
+				     <ul class="nav inline-list" >
+				      <li><a title="" href="#">Accueil</a></li>
+				      <li><a title="" href="#">Menu 01</a></li>
+				      <li><a title="" href="#">Menu 02</a></li>
+				      <li><a title="" href="#">Menu 03</a></li>
+				      <li><a title="" href="#">Menu 04</a></li>
+				      <li><a title="" href="#">Menu 05</a></li>
+				      <li><a title="" href="#">Menu 06</a></li>
+				      <li><a title="" href="#">Menu 07</a></li>
+				     </ul>
+			    </div>
+			    <div id="box_newsletter" class="clearfix">
+			     <h3>Abonnez-vous à notre newsletter</h3>
+			     <form action="#" method="post" class="newsletter_form">
+			      <input type="text" name="newsletter_email" class="input-small"  placeholder="Votre email" />
+			      <button class="btn btn-primary" name="newsletter_submit" type="button">Validez</button>
+			     </form>
+			    </div>
+			    <div id="copyright">
+			     <ul>
+			      <li><a title="" href="#">Mentions légales</a> <p class="copyright">© logotype 2012</p></li>
+			     </ul>
+			    </div>
+			   </div>
+			   <div id="box_address" class="pull-right col col2">
+			    <div class="gmap" >
+			     <a title="" href="#contact"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Place+d+armes,Luxembourg&amp;zoom=14&amp;size=200x120&amp;maptype=roadmap&amp;markers=size:mid%7Ccolor:red%7CPlace+d+armes,Luxembourg,CA&amp;sensor=true" alt="#"/></a>
+			    </div>
+			    <div class="gmap_address" >
+			     <h5 class="ttre">Adressse : </h5>
+			     <ul class="address" >
+			      <li>103 avenue de Vaugirard, 75009 Paris</li>
+			      <li>Tel : 01.34.53.74.03 Fax : 01.34.54.34.67</li>
+			     </ul>
+			     <h5 class="ttre">Horaires d'ouverture : </h5>
+			     <ul class="opTime" >
+			      <li>Lundi : 9h-18h, Mardi : 9h-18h, Mercredi : 9h-18h,</li>
+			      <li>Jeudi : 9h-18h, Vendredi : 9h-18h, Samedi : 9h-18h</li>
+			     </ul>
+			    </div>
+			   </div>
 		</div>
 	</div>
 
