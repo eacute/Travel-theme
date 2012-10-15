@@ -269,9 +269,10 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .thumbnail p.date {margin: 0 0 1px 0;;}
 .thumbnail p.date_from {display:inline-block;font-size:13px;position:relative;font-family: 'Open Sans';color: #61b5d7;text-transform: uppercase;padding: 0 0 0 0; margin: 0 0 3px 0;font-weight:normal;}
 .thumbnail p.date_from { border-left:1px solid #61b5d7;padding-left:5px; margin-left:5px;}
-.thumbnail .ttre {color:#202020;font-family: Lato; font-size:13px;padding:0px 0 3px 0px ;margin:0px ;line-height:125%;font-weight:normal}
-.thumbnail .ttre a {color:#202020}
+.thumbnail .ttre {color:#009cbb; font-size:12px; padding: 3px 0 3px 0px ; margin:0px ; line-height:125%; font-weight:700; text-transform:uppercase;}
+.thumbnail .ttre a {color:#009cbb;}
 .thumbnail .inline-list {font-size:11px;margin-bottom:0;line-height:14px;}
+.thumbnail .desc{ font-size: 11px; color: #949494;}
 
 .arrow{ width: 0; height: 0; position:absolute;z-index:20;top:47%;;}
 .arrow.right ,.arrow.left {border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
