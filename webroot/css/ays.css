@@ -32,15 +32,7 @@ a { color:#61b5d7; }
 
 }
 #box-book .btn-primary,.btn-primary{
-	background-image: linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -o-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -moz-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -webkit-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -ms-linear-gradient(bottom, rgb(94,176,209) 38%, rgb(106,198,235) 69%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(94,176,209)), color-stop(0.69, rgb(106,198,235)));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ac6eb', endColorstr='#5eb0d1', GradientType=0);
-	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
-	background-color: #6AC6EB;
+	background: #ff0000;
 	opacity: 1;
 }
 .btn-primary:hover,
@@ -49,7 +41,7 @@ a { color:#61b5d7; }
 #box-book .btn-primary:active,
 .btn-primary.active
 #box-book .btn-primary.active
-{background: #6ac6eb; }
+{background: #e50000; }
 
 .btn-success {
 	background-image: linear-gradient(bottom, rgb(133,181,3) 36%, rgb(168,198,34) 65%);
@@ -267,8 +259,8 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .thumbnail .caption {padding:0; position:relative; z-index:1; min-height: 90px;}
 .thumbnail .value{color:#4c4c52;font-weight:600;}
 .thumbnail p.date {margin: 0 0 1px 0;;}
-.thumbnail p.date_from {display:inline-block;font-size:13px;position:relative;font-family: 'Open Sans';color: #61b5d7;text-transform: uppercase;padding: 0 0 0 0; margin: 0 0 3px 0;font-weight:normal;}
-.thumbnail p.date_from { border-left:1px solid #61b5d7;padding-left:5px; margin-left:5px;}
+.thumbnail p.date_from {display:inline-block;font-size:13px;position:relative;font-family: 'Open Sans';color: #545454;text-transform: uppercase;padding: 0 0 0 0; margin: 0 0 3px 0;font-weight:bold;}
+.thumbnail p.date_from {}
 .thumbnail .ttre {color:#009cbb; font-size:12px; padding: 3px 0 3px 0px ; margin:0px ; line-height:125%; font-weight:700; text-transform:uppercase;}
 .thumbnail .ttre a {color:#009cbb;}
 .thumbnail .inline-list {font-size:11px;margin-bottom:0;line-height:14px;}
@@ -347,7 +339,9 @@ i.large{height:26px;width:26px;line-height:26px}
 	border-right-color:#000;
 	display: none;
 }
-
+#box-news .thumbnail{
+	background: transparent;
+}
 #box-news {
 	width: 394px;
 }

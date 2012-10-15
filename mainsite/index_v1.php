@@ -206,7 +206,7 @@
 				</div>
 
 				<div id="box-featured" class="box">
-					<h2 class="box_title">NOTRE SÉLECTION<a class="pull-right btn btn-primary" title="" href="#">Voir toutes les offres</a></h2>
+					<h2 class="box_title">NOTRE SÉLECTION</h2>
 					<ul class="thumbnails">
 						<li class="span2">
 							<div class="thumbnail clearfix">
@@ -281,10 +281,11 @@
 							</div>
 						</li>
 					</ul>
+					<a class="btn btn-primary" title="Voir toutes les offres" href="#">Voir toutes les offres</a>
 				</div>
 
 				<div id="box-news" class="box span2">
-					<h2 class='box_title'>Notre actualité <a class="pull-right btn btn-primary" title="" href="#">Toutes les actualités</a></h2>
+					<h2 class='box_title'>Notre actualité</h2>
 					<ul class="thumbnails">
 						<li class="span5">
 							<div class="thumbnail clearfix">
@@ -307,6 +308,7 @@
 							</div>
 						</li>
 					</ul>
+					<a class="pull-right btn btn-primary" title="Toutes les actualités" href="#">Toutes les actualités</a>
 				</div>
 					
 			</div>
