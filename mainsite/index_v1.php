@@ -96,9 +96,8 @@
 						<p class="price"><small>à partir de</small>1890 €</p>
 						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
-							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
+							<h3 class="ttre"><a title="" href="#">Bali est magique lorem ipsum nec mergitur</a></h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
-							<p class="link"><a title="" class="btn btn-primary" href="#">En savoir plus</a></p>
 						</div>
 					</div>
 					<div class="sliderkit-panel">
