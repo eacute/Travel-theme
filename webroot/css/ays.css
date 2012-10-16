@@ -6,7 +6,7 @@ input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner {border: none;}
-body, p, select, textarea, input, button {color:#939393;font-size:12px; font-family: 'Open Sans',sans-serif; font-weight: normal;line-height:1.25em;}
+body, p, select, textarea, input, button {color:#939393;font-size:12px; font-family: 'Open Sans'; font-weight: normal;line-height:1.25em;}
 /***** Img replacement *****/
 .rpl {margin:0;height:1%;font-size:1em;}
 button.rpl{border:none;background:transparent;}
@@ -268,7 +268,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 
 }
 #teaser_zone .welcome-box .ttre{
-	margin-bottom: 47px; 
+	margin-bottom: 1em; 
 	line-height: 33px; 
 	font-size: 30px;
 	font-family: 'Open Sans'; 
@@ -279,6 +279,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #teaser_zone .welcome-box .desc{
 	color: #fff;
 	font-size: 16px;
+	margin-bottom: 1em;
 }
 
 /* SEARCH FORM*/
@@ -472,7 +473,10 @@ i.large{height:26px;width:26px;line-height:26px}
 	text-transform: uppercase;
 	padding: 0;
 	font-weight:bold;
-
+}
+#box-news p.cat,
+#box-news p.date_from{
+	margin-bottom: 0px;
 }
 
 /*COMPANY LOGOS*/
@@ -576,6 +580,9 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 }
 .row #box-featured .thumbnails .icon-heart-b{
 	background-position: -4px -115px;
+	width: 10px;
+	height: 15px;
+	padding-right: 5px;
 }
 .row #box-featured .caption .cat span{
 	color: #545454;
