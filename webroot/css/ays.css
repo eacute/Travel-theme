@@ -215,8 +215,8 @@ ul.inline-list.border > li:last-child  {border-right:none}
 	border-color: #00cfd4 #00cfd4 transparent transparent ;
 }
 #content:after{
-	right: -180px;
-	top: 82px;
+	right: -10px;
+	top: 0;
 	border-color: #00cfd4 transparent transparent #00cfd4 ;
 }
 
@@ -910,8 +910,8 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	top: 82px;
 }
 .list #content:after{
-	right: -180px;
-    top: 82px;
+	right: -10px;
+    top: 0;
 }
 .list .page_ttre,
 .list .listing_controls{
