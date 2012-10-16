@@ -268,7 +268,7 @@
 				
 					<div class="control-group">
 						<div class="controls">
-							<select name="test" id="weee">
+							<select name="test" id="weee" class="input-medium">
 								<option selected >Votre destination</option>
 								<option>E-mail</option>
 								<option value="With Value">Téléphone</option>
@@ -278,7 +278,7 @@
 								
 					<div class="control-group">
 						<div class="controls">
-							<select name="test" id="prix">
+							<select name="test" id="prix" class="input-medium">
 								<option selected >Prix</option>
 								<option value="With Value">E-mail</option>
 								<option value="With Value">Téléphone</option>
@@ -310,10 +310,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -322,10 +321,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -334,10 +332,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -346,10 +343,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -358,10 +354,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
