@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>Travel Theme v1</title>
+	<title>Travel Theme v1 : home v2</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -31,11 +31,10 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="">
+<body class="home2">
 	<div id="header" class="clearfix">
 		<div class="container">
-			
-			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
+			<div id="logo-box" class="pull-left"><a title="" href="#">COMPANY NAME</a></div>
 			<div class="colwrapper pull-right clearfix">
 				<div id="contact-box">
 					<h2 class="ttre">Contactez-nous</h2>
@@ -163,66 +162,62 @@
 	<div id="contentzone" class="clearfix">
 		<div class="container">
 			<div id="content">
+				<div class="row nomargin negativ">
+					
+					<div id="box-search" class="box">
+						<h2 class="box_title">Réservez un vol</h2>
+						<div id="search-iframe">
+							<img src="../webroot/img/search-iframe.png" alt="Search iFrame" />
+						</div>
+					</div>
 
-				<div class="row nomargin">
 					<div id="box-featured" class="box">
-						<h2 class="box_title">NOTRE SÉLECTION<a class="pull-right btn btn-primary" title="" href="#">Voir toutes les offres</a></h2>
+						<h2 class="box_title">NOTRE SÉLECTION</h2>
 						<ul class="thumbnails">
 							<li class="span4">
 								<div class="thumbnail clearfix">
-									<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
 									<div class="caption">
 										<div class="arrow left"></div>
 										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
-										<p class="price">à partir de 1630 €</p>
 										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
-									</div>
-								</div>
-							</li>
-							<li class="span4">
-								<div class="thumbnail alternate  clearfix">
-									<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-									<div class="caption">
-										<div class="arrow left"></div>
-										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 										<p class="price">à partir de 1630 €</p>
-										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
-									</div>
-								</div>
-							</li>
-							<li class="span4">
-								<div class="thumbnail alternate clearfix">
-									<img src="http://lorempixel.com/120/90/" alt="" class="pull-right">
-									<div class="caption">
-										<div class="arrow right"></div>
-										<p class="cat"><i class="icon-promo-b"></i> <span>séjour</span></p>
-										<p class="price">à partir de 1630 €</p>
-										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 									</div>
 								</div>
 							</li>
 							<li class="span4">
 								<div class="thumbnail clearfix">
-									<img src="http://lorempixel.com/120/90/" alt="" class="pull-right">
+									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
 									<div class="caption">
-										<div class="arrow right"></div>
-										<p class="cat"><i class="icon-promo-b"></i> <span>séjour</span></p>
-										<p class="price">à partir de 1630 €</p>
+										<div class="arrow left"></div>
+										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+										<p class="price">à partir de 1630 €</p>
 									</div>
 								</div>
 							</li>
+							<li class="span4">
+								<div class="thumbnail clearfix">
+									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
+									<div class="caption">
+										<div class="arrow left"></div>
+										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
+										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+										<p class="price"><del>1630 €</del> 1630 €</p>
+									</div>
+								</div>
+							</li>	
 						</ul>
+						<a class="btn btn-primary" title="" href="#">Voir toutes les offres</a>
 					</div>
 				</div>
 				
 				<div class="row nomargin">
 					<div id="box-news" class="box span1">
-						<h2 class='box_title'>Notre actualité<a class="pull-right btn btn-primary" title="" href="#">Toutes les actualités</a></h2>
+						<h2 class='box_title'>Notre actualité</h2>
 						<ul class="thumbnails">
 							<li class="span2">
 								<div class="thumbnail clearfix">
@@ -245,6 +240,7 @@
 								</div>
 							</li>
 						</ul>
+						<a class="btn btn-primary" title="" href="#">Toutes les actualités</a>
 					</div>
 					
 				</div>
