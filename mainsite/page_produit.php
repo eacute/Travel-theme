@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" type="image/png" href="../webroot/img/favicon.ico" />
 
@@ -83,24 +82,23 @@
 
 	<div id="contentzone" class="clearfix">
 		<div class="container">
+
+			<div class="listing_controls top clearfix">
+				<div class="ordering_wrap pull-left">
+					<div class="order-controls btn-group">
+						<a title="Retour à la liste"  href="javascript:;" class="nav-link">Revenir à la liste</a>
+					</div>
+					<div class="order-controls btn-group">
+						<a title="Annonce précédente"  href="javascript:;" class="nav-link"><span>&lsaquo;</span> Produit précédent</a>
+					</div>
+					<div class="order-controls btn-group">
+						<a title="Annonce suivante"  href="javascript:;" class="nav-link">Produit suivant <span>&rsaquo;</span></a>
+					</div>
+				</div>	 
+		
+			</div>
 		   	<div id="content">
 
-				<div class="listing_controls top clearfix">
-					<div class="ordering_wrap pull-left">
-						<div class="order-controls btn-group">
-							<a title="Retour à la liste"  href="javascript:;" class="nav-link">Revenir à la liste</a>
-						</div>
-						<div class="order-controls btn-group">
-							<a title="Annonce précédente"  href="javascript:;" class="nav-link"><span>&lsaquo;</span> Produit précédent</a>
-						</div>
-						<div class="order-controls btn-group">
-							<a title="Annonce suivante"  href="javascript:;" class="nav-link">Produit suivant <span>&rsaquo;</span></a>
-						</div>
-					</div>	 
-			
-				</div>
-				
-				
 				<div class="detail_produit detail">
 				
 					<div id="top_detail" class="clearfix">
@@ -245,7 +243,7 @@
 					
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="weee">
+								<select name="test" id="weee" class="input-medium">
 									<option selected >Votre destination</option>
 									<option>E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -255,7 +253,7 @@
 									
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="prix">
+								<select name="test" id="prix" class="input-medium">
 									<option selected >Prix</option>
 									<option value="With Value">E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -287,10 +285,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -299,10 +296,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -311,10 +307,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -323,10 +318,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -335,10 +329,9 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
@@ -354,48 +347,47 @@
 	<div id="footer" class="notice clearfix">
 		<div class="container">
 			<div class="pull-left col col1">
-				<ul class="" >
-					<li><a title="" href="#">Accueil</a></li>
-					<li><a title="" href="#">Menu 01</a></li>
-					<li><a title="" href="#">Menu 02</a></li>
-					<li><a title="" href="#">Menu 03</a></li>
-					<li><a title="" href="#">Menu 04</a></li>
-					<li><a title="" href="#">Menu 05</a></li>
-					<li><a title="" href="#">Menu 06</a></li>
-					<li><a title="" href="#">Menu 07</a></li>
-				</ul>
-			</div>
-
-			<div class="pull-left col col2">
-				<div class="gmap" >
-					<a title="" href="#contact"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Place+d+armes,Luxembourg&amp;zoom=14&amp;size=200x120&amp;maptype=roadmap&amp;markers=size:mid%7Ccolor:red%7CPlace+d+armes,Luxembourg,CA&amp;sensor=true" alt="#"/></a>
-				</div>
-				<div class="gmap_address" >
-					<h5 class="ttre">Adressse : </h5>
-					<ul class="" >
-						<li>103 avenue de Vaugirard, 75009 Paris</li>
-						<li>Tel : 01.34.53.74.03 Fax : 01.34.54.34.67</li>
-					</ul>
-					<h5 class="ttre">Horaires d'ouverture : </h5>
-					<ul class="" >
-						<li>Lundi : 9h-18h, Mardi : 9h-18h, Mercredi : 9h-18h,</li>
-						<li>Jeudi : 9h-18h, Vendredi : 9h-18h, Samedi : 9h-18h</li>
+				<div id="secondary_menu" class="clearfix">
+					<ul class="nav inline-list" >
+						<li><a title="" href="#">Accueil</a></li>
+						<li><a title="" href="#">Menu 01</a></li>
+						<li><a title="" href="#">Menu 02</a></li>
+						<li><a title="" href="#">Menu 03</a></li>
+						<li><a title="" href="#">Menu 04</a></li>
+						<li><a title="" href="#">Menu 05</a></li>
+						<li><a title="" href="#">Menu 06</a></li>
+						<li><a title="" href="#">Menu 07</a></li>
 					</ul>
 				</div>
-
-			</div>
-
-			<div class="pull-left col col3">
-				<div id="box_newsletter">
+				<div id="box_newsletter" class="clearfix">
 					<h3>Abonnez-vous à notre newsletter</h3>
 					<form action="#" method="post" class="newsletter_form">
 						<input type="text" name="newsletter_email" class="input-small"  placeholder="Votre email" />
 						<button class="btn btn-primary" name="newsletter_submit" type="button">Validez</button>
 					</form>
 				</div>
-				<ul class="" >
-					<li><a title="" href="#">Mentions légales</a> <p class="copyright">© logotype 2012</p></li>
-				</ul>
+				<div id="copyright">
+					<ul>
+						<li><a title="" href="#">Mentions légales</a> <p class="copyright">© logotype 2012</p></li>
+					</ul>
+				</div>
+			</div>
+			<div id="box_address" class="pull-right col col2">
+				<div class="gmap" >
+					<a title="" href="#contact"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Place+d+armes,Luxembourg&amp;zoom=14&amp;size=200x120&amp;maptype=roadmap&amp;markers=size:mid%7Ccolor:red%7CPlace+d+armes,Luxembourg,CA&amp;sensor=true" alt="#"/></a>
+				</div>
+				<div class="gmap_address" >
+					<h5 class="ttre">Adressse : </h5>
+					<ul class="address" >
+						<li>103 avenue de Vaugirard, 75009 Paris</li>
+						<li>Tel : 01.34.53.74.03 Fax : 01.34.54.34.67</li>
+					</ul>
+					<h5 class="ttre">Horaires d'ouverture : </h5>
+					<ul class="opTime" >
+						<li>Lundi : 9h-18h, Mardi : 9h-18h, Mercredi : 9h-18h,</li>
+						<li>Jeudi : 9h-18h, Vendredi : 9h-18h, Samedi : 9h-18h</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>

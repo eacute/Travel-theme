@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" type="image/png" href="../webroot/img/favicon.ico" />
 
@@ -204,45 +203,7 @@
 							</div>
 						</div>
 					</li>
-					<li>
-		          		<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
-							<div class="caption">
-								<div class="arrow left"></div>
-								<p class="date">31 mars 2012</p>
-								<h3 class="cat">Actualités</h3>
-								<p class="date_from">Du 31 mars au 12 avril 2012</p>
-								<h2 class="ttre"><a title="#" href="#">Lorem ipsum invidunt dolor diam nonumy consetetur sadipscin se amet consetetur.</a></h2>
-								<p class="desc">Lorem ipsum dolor sit amet, adipscin sed diam nonumy consetetur sadipscin sed diam nonumy eirmod tempor invidunt ut lab.</p>
-							</div>
-						</div>
-					</li>
-					<li>
-		          		<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
-							<div class="caption">
-								<div class="arrow left"></div>
-								<p class="date">31 mars 2012</p>
-								<h3 class="cat">Actualités</h3>
-								<p class="date_from">Du 31 mars au 12 avril  2012</p>
-								<h2 class="ttre"><a title="" href="#">Lorem ipsum invidunt  dolor  diam nonumy consetetur sadipscin se amet consetetur.</a></h2>
-								<p class="desc">Lorem ipsum dolor sit amet, adipscin sed diam nonumy consetetur sadipscin sed diam nonumy eirmod tempor invidunt ut lab.</p>
-							</div>
-						</div>
-					</li>
-					<li>
-		          		<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
-							<div class="caption">
-								<div class="arrow left"></div>
-								<p class="date">31 mars 2012</p>
-								<h3 class="cat">Actualités</h3>
-								<p class="date_from">Du 31 mars au 12 avril  2012</p>
-								<h2 class="ttre"><a title="" href="#">Lorem ipsum invidunt  dolor  diam nonumy consetetur sadipscin se amet consetetur.</a></h2>
-								<p class="desc">Lorem ipsum dolor sit amet, adipscin sed diam nonumy consetetur sadipscin sed diam nonumy eirmod tempor invidunt ut lab.</p>
-							</div>
-						</div>
-					</li>
+					
 				</ul>
 			</div>
 			<div class="listing_controls bottom clearfix">

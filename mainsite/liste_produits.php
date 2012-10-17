@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" type="image/png" href="../webroot/img/favicon.ico" />
 
@@ -30,7 +29,7 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="list list-products sidebar-right">
+<body class="sidebar-right list list-products">
 	<div id="header" class="clearfix">
 		<div class="container">
 			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>

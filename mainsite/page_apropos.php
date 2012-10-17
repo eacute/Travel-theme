@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" type="image/png" href="../webroot/img/favicon.ico" />
 
@@ -79,34 +78,26 @@
 			</ul>
 		</div>
 	</div>
-
 	<div id="contentzone" class="clearfix">
 		<div class="container">
+			<div class="listing_controls top clearfix">
+				<div class="ordering_wrap pull-left">
+					<div class="order-controls btn-group">
+						<a title="Retour à la liste"  href="javascript:;" class="nav-link">Revenir à la liste</a>
+					</div>
+					<div class="order-controls btn-group">
+						<a title="Annonce précédente"  href="javascript:;" class="nav-link"><span>&lsaquo;</span> Produit précédent</a>
+					</div>
+					<div class="order-controls btn-group">
+						<a title="Annonce suivante"  href="javascript:;" class="nav-link">Produit suivant <span>&rsaquo;</span></a>
+					</div>
+				</div>	 
+			</div>
 		   	<div id="content">
-
-				<div class="listing_controls top clearfix">
-					<div class="ordering_wrap pull-left">
-						<div class="order-controls btn-group">
-							<a title="Retour à la liste"  href="javascript:;" class="nav-link">Revenir à la liste</a>
-						</div>
-						<div class="order-controls btn-group">
-							<a title="Annonce précédente"  href="javascript:;" class="nav-link"><span>&lsaquo;</span> Produit précédent</a>
-						</div>
-						<div class="order-controls btn-group">
-							<a title="Annonce suivante"  href="javascript:;" class="nav-link">Produit suivant <span>&rsaquo;</span></a>
-						</div>
-					</div>	 
-			
-				</div>
-				
-				
-				
 				<div class="detail_about detail">
-				
-				
 					<div id="top_detail" class="clearfix">
 							<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
-							<div id="social-box" class="pull-right">
+							<div id="social-box" class="pull-left">
 								<!-- AddThis Button BEGIN -->
 								<div class="addthis_toolbox addthis_default_style ">
 									<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -121,7 +112,6 @@
 					<div class="highlight clearfix">
 						<h1 class="page_ttre">Nom commercial</h1>
 						<p class="sub_ttre">Agence de voyages  nom  ville-CP</p>
-		                <div class="btn_contact"><a data-toggle="modal" title="Contactez le vendeur"  class="btn btn-xlarge  btn-primary" href="modal.php">Nous contacter</a></div>
 		            </div>
 				
 				
@@ -129,19 +119,19 @@
 						
 						<div class="sliderkit-panels">
 							<div class="sliderkit-panel">
-			    				<img src="http://lorempixel.com/640/480/city" alt="">
+			    				<img src="http://lorempixel.com/580/435/city" alt="">
 							</div>
 							<div class="sliderkit-panel">
-			    				<img src="http://lorempixel.com/640/480/city" alt="">
+			    				<img src="http://lorempixel.com/580/435/city" alt="">
 							</div>
 							<div class="sliderkit-panel">
-			    				<img src="http://lorempixel.com/640/480/city" alt="">
+			    				<img src="http://lorempixel.com/580/435/city" alt="">
 							</div>
 							<div class="sliderkit-panel">
-			    				<img src="http://lorempixel.com/640/480/city" alt="">
+			    				<img src="http://lorempixel.com/580/435/city" alt="">
 				    		</div>
 							<div class="sliderkit-panel">
-			    				<img src="http://lorempixel.com/640/480/city" alt="">
+			    				<img src="http://lorempixel.com/580/435/city" alt="">
 							</div>
 						</div>
 						
@@ -210,19 +200,13 @@
 				
 			<div id="sidebar-right">
 
-				<div id="box-news" class="nom">
-					<h4 class='ttre'>Nom De L'agence</h4>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elit sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-					<p class="readmore"><a class="btn btn-primary" title="" href="#">En savoir plus</a></p>
-				</div>
-
 				<div id="search-form" class="box">
 					<form class="clearfix">
 						<h4 class="box_title">Rechercher une destination</h4>
 					
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="weee">
+								<select name="test" id="weee" class="input-medium">
 									<option selected >Votre destination</option>
 									<option>E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -232,7 +216,7 @@
 									
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="prix">
+								<select name="test" id="prix" class="input-medium">
 									<option selected >Prix</option>
 									<option value="With Value">E-mail</option>
 									<option value="With Value">Téléphone</option>
