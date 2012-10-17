@@ -82,6 +82,9 @@ a { color:#61b5d7; }
 #sidebar-right {
 	width: 260px; 
 	margin: 0;
+	position: absolute;
+	right: 40px;
+	z-index: 10;
 }
 .sidebar-right .box_title {font-size:16px;}
 	
@@ -574,7 +577,7 @@ i.large{height:26px;width:26px;line-height:26px}
 }
 #sidebar-right #box-news {
 	padding: 20px;
-	width: 394px; 
+	width: 220px; 
 	background: #ebebeb;
 }
 #sidebar-right #box-featured{
