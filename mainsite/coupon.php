@@ -94,7 +94,7 @@
 					
 					<div id="top_detail" class="clearfix">
 						<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
-						<div id="social-box" class="pull-right">
+						<div id="social-box" class="pull-left">
 							<!-- AddThis Button BEGIN -->
 							<div class="addthis_toolbox addthis_default_style ">
 								<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
