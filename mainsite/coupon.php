@@ -29,7 +29,7 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="sidebar-right single">
+<body class="sidebar-right coupon-page single">
 	<div id="header" class="clearfix">
 		<div class="container">
 			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
@@ -94,7 +94,7 @@
 					
 					<div id="top_detail" class="clearfix">
 						<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
-						<div id="social-box" class="pull-right">
+						<div id="social-box" class="pull-left">
 							<!-- AddThis Button BEGIN -->
 							<div class="addthis_toolbox addthis_default_style ">
 								<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -108,9 +108,10 @@
 
 					<div class="highlight clearfix">
 						<div class="coupon clearfix"></div>
+						<div class="price_holder"><p class="price">Coupon : 20%</p></div>
+
 						 <h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		            </div>
-		            <span>Coupon</span>  <span>20 %</span>
 	
 					<div class="coupon-img">
 			    		<img src="http://lorempixel.com/580/435/city/" alt="">
