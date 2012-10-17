@@ -148,6 +148,9 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #logo-box a{
 	color: #fff;
 }
+#logo-box a:hover{
+	text-decoration:none;
+}
 .navbar-inner{
 	position: relative;
 	width: 960px;
