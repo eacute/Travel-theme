@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 	<link rel="icon" type="image/png" href="../webroot/img/favicon.ico" />
 
@@ -30,7 +29,7 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="sidebar-right">
+<body class="sidebar-right single">
 	<div id="header" class="clearfix">
 		<div class="container">
 			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
@@ -49,6 +48,7 @@
 			</div>
 		</div>
 	</div>
+	
 	
 	<div id="main-nav" class="navbar alternate navbar-top">
 		<div class="navbar-inner">
@@ -80,15 +80,17 @@
 		</div>
 	</div>
 
+
 	<div id="contentzone" class="clearfix">
 		<div class="container">
+		
+
+		
 		   	<div id="content">
-		   	
 		   	
 				<div class="detail_coupon detail">
 
-		 
-					<div class="coupon clearfix"></div>
+					
 					
 					<div id="top_detail" class="clearfix">
 						<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
@@ -103,19 +105,17 @@
 							<!-- AddThis Button END -->
 						</div>
 					</div>
-					
-					
-					<h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 
 					<div class="highlight clearfix">
-		               <span>Coupon</span>  <span>20 %</span>
+						<div class="coupon clearfix"></div>
+						 <h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		            </div>
-	
+		            <span>Coupon</span>  <span>20 %</span>
 	
 					<div class="coupon-img">
-			    		<img src="http://lorempixel.com/640/480/" alt="">
+			    		<img src="http://lorempixel.com/580/435/city/" alt="">
 					</div>
-			
+
 	 				<div id="box_desc" class="clearfix">
 						<div class="detail_desc">
 							<h2 class="ttre">Consetetur sadipscing elitr,  tempor invidunt ut labore </h2>
@@ -147,7 +147,7 @@
 					
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="weee">
+								<select name="test" id="weee" class="input-medium">
 									<option selected >Votre destination</option>
 									<option>E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -157,7 +157,7 @@
 									
 						<div class="control-group">
 							<div class="controls">
-								<select name="test" id="prix">
+								<select name="test" id="prix" class="input-medium">
 									<option selected >Prix</option>
 									<option value="With Value">E-mail</option>
 									<option value="With Value">Téléphone</option>
@@ -175,13 +175,11 @@
 					         <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 					</form>
 				</div>
-				<div id="box-book" class="">
-					<h4 class="box_title">Réservez un vol</h4>
-					<ul>
-						<li><a class="btn btn-success" href="#"><i class="icon-2ways large"></i>  Aller / Retour</a></li>
-						<li><a class="btn btn-primary" href="#"><i class="icon-1way large"></i>  Aller simple</a></li>
-					</ul>
-				</div>
+						<div id="box-book" class="">
+		     		<ul>
+		      			<li><a class="btn btn-primary btn-large" href="#">Reservez un vol<i class="icon-1way large"></i></a></li>
+		     		</ul>
+		    	</div>
 		
 		  		<div id="box-featured" class="box">
 		  		 	<h4 class='box_title'>NOTRE SÉLECTION</h4>
@@ -189,11 +187,10 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
@@ -201,11 +198,10 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
@@ -213,11 +209,10 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
@@ -225,11 +220,10 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
@@ -237,11 +231,10 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
+									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
@@ -252,6 +245,7 @@
 			</div>
 		</div>
 	</div>
+
 
 	<div id="footer" class="notice clearfix">
 		<div class="container">
