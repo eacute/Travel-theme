@@ -624,12 +624,10 @@ i.large{height:26px;width:26px;line-height:26px}
 	padding: 0; 
 	clear: both;
 }
-#box-book h4.box_title{color: white; background: #ff0000;margin-bottom: 0; }
-#box-book a {font-size: 14px; display: block;}
 #box-book a i {background: url(../img/icon-airplane.png) no-repeat; display: inline-block; width: 32px; height: 23px; }
 #box-book .icon-1way {background-position: right top; width: 20px;}
 #box-book .icon-2ways {background-position: left top;}
-#box-book ul {list-style: none; margin: 0; padding: 0; }
+#box-book ul {list-style: none; margin: 0; padding: 0;font-size:24px;font-style:italic;font-weight:normal; }
 #box-book ul li {display: block; float: left; width: 100%;}
 #box-book ul li:first-child {}
 #box-book ul li a {padding: 12px 10px;}
