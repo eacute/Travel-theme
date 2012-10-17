@@ -1173,8 +1173,8 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 
 	position:relative;
 }
-#productTab.nav-tabs > li h3 {
-
+#productTab.nav-tabs > li a {
+	border: 0;
 	display:block;
 	margin:0px;
 	padding:0px;
@@ -1199,11 +1199,13 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 #productTab.nav-tabs > li.active a:hover { 
 	color: white; 
 	background: transparent;
+	border: 0;
 	border-bottom: 4px solid #fff;
 }
 #productTab.nav-tabs > li a:hover {
 	color: #fff;
 	text-decoration:none;
+	border: 0;
 }
 #productTab.nav-tabs > li .arrow {
 	display:none;

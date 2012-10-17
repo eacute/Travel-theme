@@ -169,10 +169,10 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<ul class="nav nav-tabs" id="productTab">
-								<li class="active"><h3><a href="#desc">Descriptif</a></h3><span class="arrow down"></span></li>
-								<li><h3><a href="#plus">Plus produit</a></h3><span class="arrow down"></span></li>
-								<li><h3><a href="#promotion">Promotion</a></h3><span class="arrow down"></span></li>
-								<li><h3><a href="#localisation">Localisation</a></h3><span class="arrow down"></span></li>
+								<li class="active"><a href="#desc">Descriptif</a><span class="arrow down"></span></li>
+								<li><a href="#plus">Plus produit</a><span class="arrow down"></span></li>
+								<li><a href="#promotion">Promotion</a><span class="arrow down"></span></li>
+								<li><a href="#localisation">Localisation</a><span class="arrow down"></span></li>
 							</ul>
 	
 							<div class="tab-content">
@@ -200,12 +200,41 @@
 											eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
 										</div>
 									</div>
-																		
 								</div>
-								<div class="tab-pane" id="plus">...</div>
-								<div class="tab-pane" id="promotion">...</div>
-								<div class="tab-pane" id="localisation">...</div>
+
+								<div class="tab-pane" id="plus">
+									<h3>No recusabo scripserit nec,</h3>
+									<p class="desc">Lorem ipsum dolor sit amet, ea tempor detracto sententiae has, 
+									te congue altera propriae pri, mollis melius nec ne. Honestatis sadipscing pri id, recteque 
+									philosophia vel ex. Feugait signiferumque pro et, id instructior vituperatoribus mel, et dicta
+									 antiopam mel. Senserit reformidans pri cu, quo tempor accumsan delectus ei. His nobis principes
+									  conceptam ut, ei inimicus patrioque mei, mea ne suas noster bonorum. Rebum disputando consectetuer
+									   ei mea, tale populo hendrerit per et.</p>
+								</div>
+
+								<div class="tab-pane" id="promotion"><h3>Eligendi voluptua necessitatibus ius in.</h3>
+									<p class="desc">No recusabo scripserit nec, eam illud tritani honestatis at, sit id viris
+								 audiam feugiat. In eam detracto mandamus repudiandae. Harum euripidis an nec, iudico option an duo. Est aeque 
+								 oporteat cotidieque cu, sumo affert accusata ei cum, ei saperet forensibus ius. Modo postea honestatis his ea, 
+								 ius erant oblique philosophia ex.</p>
+								</div>
+
+								<div class="tab-pane" id="localisation">
+									<h3>Duo cu case illud</h3>
+									<p class="desc">Eos ea nostro mollis, an cum novum molestie persecuti. In has ipsum salutatus. 
+										Et tamquam intellegam pro, prima fuisset phaedrum eos at. Has ea quem paulo oportere.
+									</p>
+								</div>
+
+
 							</div>
+
+
+
+								     
+								 
+
+
 							
 						</div>
 						

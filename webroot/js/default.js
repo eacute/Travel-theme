@@ -78,7 +78,7 @@ $(function () {
 
 	/* Tabs 
 	* =================================== */ 
- 	$('#productTab h3').click(function (e) {
+ 	$('#productTab a').click(function (e) {
 	  e.preventDefault();
 	  $(this).tab('show');
 	})
