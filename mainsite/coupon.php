@@ -108,6 +108,8 @@
 
 					<div class="highlight clearfix">
 						<div class="coupon clearfix"></div>
+						<div class="price_holder"><p class="price">Coupon : 20%</p></div>
+
 						 <h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		            </div>
 	

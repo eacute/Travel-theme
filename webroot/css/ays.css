@@ -248,24 +248,6 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .navbar .dropdown-menu a { color:#fff;font-size:14px;padding: 10px }
 .navbar .dropdown-menu a:hover {background:#1B6596;}
 
-/*Alternate NAVIGATION*/
-.alternate .navbar-inner {background: transparent; box-shadow: none;}
-.alternate .nav a {text-shadow: none !important;}
-.alternate .nav > li.open {background: #115388;}
-.alternate .nav > li.open > a {color: #939393;}
-.alternate .nav > li > a:hover,
-.alternate .nav .active > a,
-.alternate .nav .active > a:hover,
-.alternate .nav .active > .dropdown-toggle:hover,
-.alternate .nav .active > .dropdown-toggle {background-color: #115388; color: #fff;}
-
-
-/* Sup teaser zone */
-#sup_teaser_zone {background: #f6f6f6; padding: 15px 0;border-top:1px solid #e7e7e7;}
-#sup_teaser_zone #welcome-box .ttre { font-size: 18px;}
-#sup_teaser_zone #welcome-box p.desc {width: 85%; font-size: 15px; line-height: 20px;margin-bottom:0;}
-#sup_teaser_zone #welcome-box p.readmore {position: absolute; top: 0px; right: 0;bottom:0; width:25%;}
-#sup_teaser_zone #welcome-box p.readmore .btn-primary {position: absolute; top:50%;margin-top:-15px;right:0;}
 
 
 /*TEASER ZONE*/
@@ -909,6 +891,9 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	padding-left: 50px;
 	padding-top: 30px;
 }
+.coupon-page .highlight{
+	padding-top:10px;
+}
 .single .highlight h1.page_ttre, 
 .single .highlight .sub_ttre {
 	color: #fff;
@@ -943,6 +928,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .price_holder{
 	position: absolute;
     left: 0;
+    top:0;
     bottom: 0;
     height: 100px;
     width: 120px;
@@ -969,7 +955,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	float: right;
 }
 .detail_produit .highlight h1.page_ttre,
-.coupon-page.highlight h1.page_ttre {
+.coupon-page .highlight h1.page_ttre {
 	position: absolute;
 	left: 120px;
 	width: 317px;
@@ -977,7 +963,9 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	background: #009cba;
 	display: block;
 	padding: 30px 40px;
+	top:0;
 }
+.coupon-page .highlight h1.page_ttre {width: 430px}
 .detail_produit .highlight{
 	padding-top: 0;
 }
@@ -989,10 +977,18 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
     top: 220px;
     border-color: #00cfd4 transparent transparent #00cfd4;
 }
+.coupon-page #content:after {
+    top: 200px;
+}
+
 .single #content:before {
 	left: -10px;
     top: 220px;
 }
+.coupon-page #content:before {
+    top: 200px;
+}
+
 .product-page #content:after {
 	right: -310px;
     top: 200px;
@@ -1013,6 +1009,9 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
     position: absolute;
     width: 350px;
     z-index: -5;
+}
+.coupon-page #sidebar-right:before{
+	 height: 200px;
 }
 .product-page #sidebar-right:before{
 	margin-top: 0;
@@ -1074,12 +1073,15 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 
 /*DETAIL ABOUT*/
 .detail_about #box_desc .detail_desc,
-.detail_about #box_desc .detail_desc p{
+.detail_about #box_desc .detail_desc p,
+.single #box_desc .detail_desc p{
 	font-size:13px;
 	color: #fff;
 }
 .detail_about #box_desc .detail_desc h2,
-.detail_about #box_desc .detail_desc h3{
+.single #box_desc .detail_desc h2,
+.detail_about #box_desc .detail_desc h3,
+.single #box_desc .detail_desc h3{
 	font-size:13px;
 	line-height:125%;
 	font-weight: 700;
@@ -1103,8 +1105,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .detail_coupon .highlight{
 
 }
-.detail_coupon .page_ttre {margin:20px 0;color:#000;}
-.detail_coupon .detail_desc h2.ttre{color:#000;font-size:16px;}
+.detail_coupon .detail_desc h2.ttre{;font-size:16px;}
 
 /*News LIST*/
 .list .thumbnail .arrow.left{
