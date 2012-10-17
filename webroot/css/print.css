@@ -79,6 +79,19 @@ body .btn{background :#fff!important;}
 body a, body a {color :#1B6596!important;}
 
 body #content,body  .container {width:100%;;margin:0 auto;border :none;width:660px;}
-
-#search-form-horizontal, #main-nav, #breadcrumb, #sidebar-right,#footer,.listing_controls,#top_detail,#welcome-box,#contact-box,.coupon{ display :none;}
+body #content *{border :none;}
+#search-form-horizontal, #main-nav, #breadcrumb, #sidebar-right,#footer,.listing_controls,#top_detail,#welcome-box,#contact-box,.coupon,.sliderkit-nav,.images-video, #share-box{ display :none;}
 body .detail{padding-top:0;}
+
+.navbar-inner:before,
+.navbar-inner:after,
+#content:before,
+#content:after{
+	content: '';
+	background:none;
+}
+body.single .highlight{margin:0;padding:0;}
+body.single .cat,body.single .price_holder ,body.single h1.page_ttre,body.single .price_holder .price  {position:static!important;width:auto!important;padding: 0!important; margin:0!important;display:block;height:auto;}
+body.single h1.page_ttre,.detail_produit .cat,body.single .price_holder{float:left;max-width:457px;}
+.detail_produit .cat span {display:inline;}
+body  .hightlight h1.page_ttre{clear:left;margin-bottom:-80px!important;}
