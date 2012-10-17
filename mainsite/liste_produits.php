@@ -122,7 +122,7 @@
 					<ul class="thumbnails">
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -134,7 +134,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -146,7 +146,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -158,7 +158,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -170,7 +170,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -182,7 +182,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -194,7 +194,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -206,7 +206,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -218,7 +218,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -230,19 +230,7 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
-								<div class="caption">
-									<div class="arrow left"></div>
-									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
-									<p class="price">à partir de 1630 €</p>
-									<h2 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum amet consetet, duis autem vel.</a></h2>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
-								</div>
-							</div>
-						</li>
-						<li>
-					    	<div class="thumbnail clearfix">
-							<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -254,7 +242,19 @@
 						</li>
 						<li>
 					    	<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/160/120/city" alt="" class="pull-left">
+							<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<div class="caption">
+									<div class="arrow left"></div>
+									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
+									<p class="price">à partir de 1630 €</p>
+									<h2 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum amet consetet, duis autem vel.</a></h2>
+									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+								</div>
+							</div>
+						</li>
+						<li>
+					    	<div class="thumbnail clearfix">
+								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
 								<div class="caption">
 									<div class="arrow left"></div>
 									<h3 class="cat"><i class="icon-heart"></i> <span>séjour</span></h3>
@@ -317,12 +317,10 @@
 					</form>
 				</div>
 				<div id="box-book" class="">
-					<h4 class="box_title">Réservez un vol</h4>
-					<ul>
-						<li><a class="btn btn-success" href="#"><i class="icon-2ways large"></i>  Aller / Retour</a></li>
-						<li><a class="btn btn-primary" href="#"><i class="icon-1way large"></i>  Aller simple</a></li>
-					</ul>
-				</div>
+		     		<ul>
+		      			<li><a class="btn btn-primary btn-large" href="#">Reservez un vol<i class="icon-1way large"></i></a></li>
+		     		</ul>
+		    	</div>
 		
 		  		<div id="box-featured" class="box">
 		  		 	<h4 class='box_title'>NOTRE SÉLECTION</h4>

@@ -271,13 +271,11 @@
 					         <p class="readmore"><a  title="" href="#">Voir toutes les offres</a></p>
 					</form>
 				</div>
-				<div id="box-book" class="">
-					<h4 class="box_title">Réservez un vol</h4>
-					<ul>
-						<li><a class="btn btn-success" href="#"><i class="icon-2ways large"></i>  Aller / Retour</a></li>
-						<li><a class="btn btn-primary" href="#"><i class="icon-1way large"></i>  Aller simple</a></li>
-					</ul>
-				</div>
+						<div id="box-book" class="">
+		     		<ul>
+		      			<li><a class="btn btn-primary btn-large" href="#">Reservez un vol<i class="icon-1way large"></i></a></li>
+		     		</ul>
+		    	</div>
 		
 		  		<div id="box-featured" class="box">
 		  		 	<h4 class='box_title'>NOTRE SÉLECTION</h4>
