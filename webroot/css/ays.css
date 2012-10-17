@@ -1137,7 +1137,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 }
 .images-video li a{
 	background: transparent;
-	color: #ff0000;
+	color: #949494;
 	font-weight: 600;
 	font-size: 11px;
 	font-style: italic;
@@ -1151,7 +1151,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 }
 .images-video li a.active {
 	background: transparent;
-	color: #949494;
+	color: #ff0000;
 	position:relative;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
