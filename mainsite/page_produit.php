@@ -18,7 +18,7 @@
 	<!--[if IE 8]>
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
 	<![endif]-->
-	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet" media="print">
+	<link type="text/css" href="../webroot/css/print.css" rel="stylesheet">
 	
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="../webroot/js/theme_front-socle/jquery-ui-effect.min.js"></script>
@@ -146,11 +146,11 @@
 							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left">&lsaquo;</a></div>
 							<div class="sliderkit-nav-clip">
 								<ul class="clearfix">
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 01"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 02"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 03"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 04"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 05"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 01"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 02"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 03"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 04"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 05"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
 								</ul>
 							</div>
 							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">&rsaquo;</a></div>
@@ -159,8 +159,8 @@
 					</div>
 
 					<ul class="images-video clearfix">
-						<li><a class="btn btn-primary active" href="#"><span class="arrow up"></span> Images</a></li>
-						<li><a class="btn btn-primary" href="#"><span class="arrow up"></span> Videos</a></li>
+						<li><a class="btn btn-primary active" href="#"> Images</a></li>
+						<li><a class="btn btn-primary" href="#"> Videos</a></li>
 					</ul>
 
 

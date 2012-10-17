@@ -306,7 +306,7 @@
 							</div>
 						</li>
 					</ul>
-					<a class="pull-right btn btn-primary" title="Toutes les actualités" href="#">Toutes les actualités</a>
+					<a class="btn btn-primary" title="Toutes les actualités" href="#">Toutes les actualités</a>
 				</div>
 					
 			</div>
