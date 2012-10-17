@@ -29,7 +29,7 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="sidebar-right single">
+<body class="sidebar-right coupon-page single">
 	<div id="header" class="clearfix">
 		<div class="container">
 			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
@@ -110,7 +110,6 @@
 						<div class="coupon clearfix"></div>
 						 <h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		            </div>
-		            <span>Coupon</span>  <span>20 %</span>
 	
 					<div class="coupon-img">
 			    		<img src="http://lorempixel.com/580/435/city/" alt="">

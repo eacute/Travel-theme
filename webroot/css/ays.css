@@ -968,7 +968,8 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .detail_produit .btn_contact{
 	float: right;
 }
-.detail_produit .highlight h1.page_ttre{
+.detail_produit .highlight h1.page_ttre,
+.coupon-page.highlight h1.page_ttre {
 	position: absolute;
 	left: 120px;
 	width: 317px;
@@ -1097,16 +1098,10 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 
 /*DETAIL COUPON*/
 .coupon-img{margin-bottom:20px;}
-.coupon{background:transparent url(../img/bg_coupon.png) 0 100% no-repeat;padding-bottom:23px;margin: 0 0 20px 0;width:100%;}
+.coupon{background:transparent url(../img/bg_coupon_altern.png) 0 100% no-repeat;padding-bottom:23px;margin: -23px -40px 20px 0;position:absolute;left:0;top:0;width:100%;}
 .detail_coupon {}
 .detail_coupon .highlight{
-	background:#000;
-	color:#fff;
-	padding:20px; 
-	position:realtive;
-	z-index:2;
-	font-size:24px;
-	font-weight:bold;
+
 }
 .detail_coupon .page_ttre {margin:20px 0;color:#000;}
 .detail_coupon .detail_desc h2.ttre{color:#000;font-size:16px;}
