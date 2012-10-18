@@ -11,7 +11,7 @@ a:hover
 .btn-primary.active{color: rgba(255, 255, 255, 0.75); }
 .btn-primary {
   text-shadow: none;
-  background-color: #9f6503;
+  background-color: #e5b81e;
   background-image: none;
 }
 .btn-primary:hover,
@@ -70,10 +70,10 @@ ul.breadcrumb .active,
 .navbar .dropdown-menu a:hover {background:#d3a53b;}
 .navbar .nav > li > a,
 #footer h3,
-#footer .col .ttre {color: #9f6503; text-shadow: none;}
+#footer .col .ttre {color: #959595; text-shadow: none;}
 
 /* light color */ 
-#detail_feature ul,#footer, .navbar-inner{background:#d3a53b;}
+#detail_feature ul,#footer, .navbar-inner{background:#e3a72c;}
 .navbar .nav > li { border-color:#b7d3ee;}
 .slider-caption {background: black;}
 
@@ -114,3 +114,53 @@ label.radio
 #footer a,
 #footer,
 #footer .copyright { color: white; }
+
+/*travel-theme2*/
+.navbar .nav > li > a:hover, 
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover, 
+.navbar .nav .active > .dropdown-toggle:hover, 
+.navbar .nav .active > .dropdown-toggle {
+    background-color: #c97100;
+    color: #FFFFFF;
+}
+#search-form,
+#teaser_zone .welcome-box,
+#breadcrumb .container{ 
+	background-color: #c97100;
+}
+.sliderkit-panel .cat,
+#box-featured .thumbnail .cat,
+.liste_produits .thumbnail .cat, 
+.search_results .thumbnail .cat {
+	background-color: #f2c000;
+}
+.sliderkit-panel p.price {
+	background-color: #ba960a;
+}
+#carousel-home .sliderkit-nav {
+	background-color: #e6b91f;
+}
+#contact-box .ttre,
+#header h1.ttre,
+#header h2.ttre{
+	color: #fff;
+}
+.box_title{
+	color: #c97200;
+}
+#footer{
+	background:#000;
+}
+.navbar-inner:after {
+    border-color: transparent transparent #ba960a #ba960a;
+}
+.navbar-inner:before {
+    border-color: transparent #ba960a #ba960a transparent;
+}
+#content:after {
+    border-color: #ba960a transparent transparent #ba960a;
+}
+#content:before {
+    border-color: #ba960a #ba960a transparent transparent;
+}

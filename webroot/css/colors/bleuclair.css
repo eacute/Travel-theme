@@ -10,7 +10,7 @@ a:hover
 
 .btn-primary.active{color: rgba(255, 255, 255, 0.75); }
 .btn-primary {
-  background-color: #36b3d9;
+  background-color: #51d2ea;
 }
 .btn-primary:hover,
 .btn-primary:active,
@@ -53,13 +53,13 @@ a:hover
 .navbar .dropdown-menu a:hover {background:#222D80;}
 .navbar .nav > li > a,
 #footer h3,
-#footer .col .ttre {color: #222d80; text-shadow: none;}
+#footer .col .ttre {color: #959595; text-shadow: none;}
 
 
 /* light color */ 
 #detail_feature ul,#footer, .navbar-inner{background:#83c3d7;}
 .navbar .nav > li { border-color:#b7d3ee;}
-.slider-caption {background: black;}
+.slider-caption {background: #5ac5d9;}
 
 /* Dark color */
 .select-group .btn.dropdown-toggle,
@@ -75,7 +75,6 @@ a:hover
 .search_results .thumbnail p.price {
 	background: #83c3d7;
 }
-
 #contentzone p.pdt_count,
 #header h1.ttre,
 #header h2.ttre,
@@ -101,3 +100,53 @@ label.radio
 #footer a,
 #footer,
 #footer .copyright { color: white; }
+
+/*travel-theme2*/
+.navbar .nav > li > a:hover, 
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover, 
+.navbar .nav .active > .dropdown-toggle:hover, 
+.navbar .nav .active > .dropdown-toggle {
+    background-color: #00b4db;
+    color: #FFFFFF;
+}
+#search-form,
+#teaser_zone .welcome-box,
+#breadcrumb .container{ 
+	background-color: #00b5dc;
+}
+.sliderkit-panel .cat,
+#box-featured .thumbnail .cat,
+.liste_produits .thumbnail .cat, 
+.search_results .thumbnail .cat {
+	background-color: #68a4b5;
+}
+.sliderkit-panel p.price {
+	background-color: #b3d1e0;
+}
+#carousel-home .sliderkit-nav {
+	background-color: #51d2ea;
+}
+#contact-box .ttre,
+#header h1.ttre,
+#header h2.ttre{
+	color: #fff;
+}
+.box_title{
+	color: #00b4db;
+}
+#footer{
+	background:#000;
+}
+.navbar-inner:after {
+    border-color: transparent transparent #b3d1e1 #b3d1e1;
+}
+.navbar-inner:before {
+    border-color: transparent #b3d1e1 #b3d1e1 transparent;
+}
+#content:after {
+    border-color: #b3d1e1 transparent transparent #b3d1e1;
+}
+#content:before {
+    border-color: #b3d1e1 #b3d1e1 transparent transparent;
+}
