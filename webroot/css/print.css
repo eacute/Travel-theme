@@ -80,5 +80,8 @@ body a, body a {color :#1B6596!important;}
 
 body #content,body  .container {width:100%;;margin:0 auto;border :none;width:660px;}
 
-#search-form-horizontal, #main-nav, #breadcrumb, #sidebar-right,#footer,.listing_controls,#top_detail,#welcome-box,#contact-box,.coupon{ display :none;}
+#search-form-horizontal, #main-nav, #breadcrumb, #sidebar-right,#footer,.listing_controls,#top_detail,#welcome-box,#contact-box,.coupon,.sliderkit-panel,.images-video,#productTabWrap .nav,.sliderkit-nav-clip{ display :none;}
 body .detail{padding-top:0;}
+.sliderkit-panel:first-child{ display block;}
+.tab-content > .tab-pane, .pill-content > .pill-pane {display:block!important;}
+#carousel-detail{height:auto;}
