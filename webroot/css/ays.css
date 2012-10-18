@@ -174,7 +174,6 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #contact-box,
 #header #welcome-box,
 #share-box{
-	border-left: 1px solid #232323;
 	padding: 0 20px 0; 
 	display:table-cell;
 }
