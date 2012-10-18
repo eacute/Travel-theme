@@ -104,7 +104,7 @@ a { color:#61b5d7; font-family: 'Open Sans' }
 .navbar-inner,
 .cust-dropdown .btn,
 .breadcrumb,
-.dropdown-menu ,
+.navbar .dropdown-menu ,
 .alert {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -265,7 +265,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle  {background-color: #00B6D9; color:#fff;}
 .navbar .dropdown-menu:after ,.navbar .dropdown-menu:before { display: none;  border: none;}
 .navbar .dropdown-menu {margin-top: 0px; border: none; background: #00B6D9; webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
-.navbar .dropdown-menu a { color:#fff;font-size:14px;padding: 10px }
+.navbar .dropdown-menu a { color:#fff;font-size:12px;padding: 10px }
 .navbar .dropdown-menu a:hover {background:#1B6596;}
 
 
@@ -327,11 +327,13 @@ ul.inline-list.border > li:last-child  {border-right:none}
 }
 #search-form form {margin: 0;}
 #search-form .btn {text-align: left;}
+#search-form .ttre{font-size:20px}
 #search-form .form-actions .btn-primary {padding: 5px 10px;font-size:13px;}
-#search-form .readmore {float: left; margin-top: 12px; color: #fff;}
-#search-form .form-actions{float: right;}
+#search-form .readmore {float: right;  margin-top: 12px;;}
+#search-form .form-actions{float: left;;}
 #search-form .readmore a,
 #search-form .readmore a:hover {color: #fff;}
+#search-form label.radio{font-size:16px;}
 #search-form input[type="radio"] {margin-right: 10px;}
 #sidebar-right #search-form{
 	padding: 20px;
@@ -356,7 +358,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #carousel-home .sliderkit-panel{height: 420px; width: 100%;}
 #carousel-home .sliderkit-panel img {margin-left: 0; display:block; }
 .slider-caption {position: absolute; bottom: 0; left: 0; padding: 40px;  height: 80px; background:none repeat scroll 0 0 #009dbb; color:#fff; }
-.slider-caption p.desc {color: #fff; font-weight: normal;background: #009dbb; font-size: 13px; line-height: 18px; }
+.slider-caption p.desc {color: #fff; font-weight: normal;font-size: 13px; line-height: 18px; }
 .sliderkit-panel p.price {position:absolute;  color:#fff; text-transform: uppercase; width:120px; height:100px;padding: 0px; right: 0; top: 100px; font-size: 20px; line-height: 20px; text-align: center;  z-index:20;background: #00cfd4; font-weight: 800; }
 .sliderkit-panel p.price small {color:#fff; font-size: 11px; font-weight: bold; line-height: 17px; margin-top:25px;display:block;}
 .sliderkit-panel .cat {position:absolute; right: 0; top: 0; font-family: 'Open Sans';font-size: 18px; font-weight: normal; color: #fff;margin-bottom:0;text-transform: uppercase; height: 100px; text-align: center;  width: 120px; background: #007da1; padding: 0; }
