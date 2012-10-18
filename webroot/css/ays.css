@@ -7,6 +7,7 @@ input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner {border: none;}
 body, p, select, textarea, input, button {color:#939393;font-size:12px; font-family: 'Open Sans', Arial,Helvetica,sans-serif; font-weight: normal;line-height:1.25em;}
+
 /*
 	Open Sans (google fonts)
 	font-family: 'Open Sans', sans-serif;
@@ -26,7 +27,7 @@ button.rpl{border:none;background:transparent;}
 }
 .span2 {width: 366px;}
 
-a { color:#61b5d7; font-family: 'Open Sans' }
+a { color:#ff0000; font-family: 'Open Sans' }
 
 .btn {
 	border: none;
@@ -140,7 +141,7 @@ ul.inline-list.border > li:last-child  {border-right:none}
 	padding: 20px 0;
 }
 #header a{ 
-	color:#ff0000; 
+	 
 	font-weight: 700;
 }
 #logo-box{

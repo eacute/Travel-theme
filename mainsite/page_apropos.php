@@ -15,6 +15,9 @@
 	<link type="text/css" href="../webroot/css/bootstrap.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/slideshow-core.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/ays.css" rel="stylesheet">
+	<?php if ($_GET['color']):?>
+	<link type="text/css" href="../webroot/css/colors/<?php echo $_GET['color'];?>.css" rel="stylesheet">
+	<?php endif;?>	
 	<!--[if IE 8]>
 		<link type="text/css" href="../webroot/css/ie8.css" rel="stylesheet">
 	<![endif]-->

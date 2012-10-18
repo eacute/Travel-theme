@@ -1,7 +1,6 @@
 a,.order-controls label,
 .listing_controls .ordering_wrap > div a {color: #8cba26;}
-a:hover
-{color: #8cba26;}
+a:hover{color: #8cba26;}
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
 {background-color: #8cba26;}
 /* Boutons */
@@ -37,11 +36,12 @@ a:hover
 ul.breadcrumb a,
 ul.breadcrumb .active,
 #contentzone p.pdt_count,
-.detail_produit .cat span {color: #8cba26;}
+.detail_produit .cat span {color: #fff;}
 #teaser_zone .cat span,
 #contentzone .cat span ,
 .thumbnail p.date_from { border-color: #8cba26;}
 
+#search-form { background-color: #252727;}
 /* Image */
 [class^="icon-"],
 [class*=" icon-"],
@@ -55,10 +55,15 @@ ul.breadcrumb .active,
 .navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
 #productTab.nav-tabs > li a
 {background-color: #8cba26;}
+
+.navbar .nav > li > a:hover, .navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav .active > .dropdown-toggle:hover, .navbar .nav .active > .dropdown-toggle {
+    background-color: #252626;
+    color: #FFFFFF;
+}
 .navbar .dropdown-menu a:hover {background:#464646;}
 .navbar .nav > li > a,
 #footer h3,
-#footer .col .ttre {color: #8cba26; text-shadow: none;}
+#footer .col .ttre {color: #959595; text-shadow: none;}
 
 
 /* light color */ 
@@ -81,6 +86,7 @@ ul.breadcrumb .active,
 	background: #464646;
 }
 
+
 #header h1.ttre,
 #header h2.ttre,
 #contentzone h2.ttre,
@@ -89,7 +95,7 @@ ul.breadcrumb .active,
 h1,h2,h3,h4,h5,
 #footer .copyright,
 #contact-box .ttre
-{color:#464646}
+{color:#fff;}
 
 /* Darkness color */
 label.radio
