@@ -851,7 +851,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	color:#fff;
 }
 .listing_controls {
-	height:25px;
+	height: 26px;
 	position: relative;
 	background: #000;
 	padding-top: 10px; 
@@ -860,7 +860,6 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 }
 .listing_controls .ordering_wrap {
 	border: none;
-	height: 26px;
 }
 .listing_controls .ordering_wrap .btn-group {margin :0  0 0 10px ;  padding :0 10px 0 0  ; float:left;}
 .listing_controls .ordering_wrap > div:first-child {border: none; margin-left: 0;}
