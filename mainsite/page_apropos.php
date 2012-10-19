@@ -139,7 +139,7 @@
 						</div>
 						
 						<div class="sliderkit-nav clearfix">
-							<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left">&lsaquo;</a></div>
+							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left">&lsaquo;</a></div>
 							<div class="sliderkit-nav-clip">
 								<ul class="clearfix">
 									<li><a href="#" title="Photo sample 01"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
@@ -149,7 +149,7 @@
 									<li><a href="#" title="Photo sample 05"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
 								</ul>
 							</div>
-							<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right">&rsaquo;</a></div>
+							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">&rsaquo;</a></div>
 						</div>
 						
 					</div>
