@@ -367,9 +367,13 @@ ul.inline-list.border > li:last-child  {border-right:none}
 }
 #search-form {
 	background: #115388 url(../img/world-map.png) no-repeat center center;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
 	background-size: 100%;
-
 }
+
+
 #search-form .ttre,
 #search-form .box_title{
 	margin-bottom: 47px; 
