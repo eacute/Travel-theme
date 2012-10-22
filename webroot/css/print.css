@@ -64,7 +64,7 @@ center          { text-align: center }
 :focus          { outline: thin dotted invert }
 
 
-h1 				{ page-break-before: always }
+
 h1, h2, h3,
 h4, h5, h6    	{ page-break-after: avoid }
 ul, ol, dl    	{ page-break-before: avoid }
@@ -78,10 +78,17 @@ body p{ background-color :#fff;color:#333;}
 body .btn{background :#fff!important;}
 body a, body a {color :#1B6596!important;}
 
-body #content,body  .container {width:100%;;margin:0 auto;border :none;width:660px;}
+body #content,body  .container {width:100%;;margin:0 auto;border :none;width:640px;overflow:hidden;}
 
 #search-form-horizontal, #main-nav, #breadcrumb, #sidebar-right,#footer,.listing_controls,#top_detail,#welcome-box,#contact-box,.coupon,.sliderkit-panel,.images-video,#productTabWrap .nav,.sliderkit-nav-clip{ display :none;}
 body .detail{padding-top:0;}
+#teaser_zone,#contentzone{background:#fff!important;position:static;}
 .sliderkit-panel:first-child{ display block;}
 .tab-content > .tab-pane, .pill-content > .pill-pane {display:block!important;}
+.single .highlight{padding-left:0;width:620px!important;}
 #carousel-detail{height:auto;}
+#header{border:none;}
+#header .container{min-height:120px;}
+h1.page_ttre{color:#000;font-size:26px;line-height:125%;padding:10px 0;display:block;margin:0!important;}
+
+.coupon-img{margin:0;}

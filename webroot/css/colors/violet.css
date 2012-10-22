@@ -1,5 +1,5 @@
 a,.order-controls label,
-.listing_controls .ordering_wrap > div a {color: #5e1661;}
+.listing_controls .ordering_wrap > div a {color: #ce75bc;}
 a:hover
 {color: #5e1661;}
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover
@@ -42,12 +42,13 @@ a:hover
 .breadcrumb .divider,
 ul.breadcrumb a,
 ul.breadcrumb .active,
-#contentzone p.pdt_count,
+p.pdt_count,
 .detail_produit .cat span {color: #ce75bc;}
 
 #header  {border-color: #5e1661;} 
 #teaser_zone .cat span,
 #contentzone .cat span,
+#sidebar-right #box-featured .cat span,
 .thumbnail p.date_from {border-color: #ce75bc;}
 
 /* Image */

@@ -294,16 +294,18 @@
 	</div>
 				
 				
-	<div id="company-logos" class="clearfix">
+	<div id="sub_content_zone" class="clearfix">
 		<div class="container">
-			<ul>
-				<li><img src="../webroot/img/logo1.png" alt="Company Logo" /></li>
-				<li><img src="../webroot/img/logo2.png" alt="Company Logo" /></li>
-				<li><img src="../webroot/img/logo3.png" alt="Company Logo" /></li>
-				<li><img src="../webroot/img/logo4.png" alt="Company Logo" /></li>
-				<li><img src="../webroot/img/logo5.png" alt="Company Logo" /></li>
-				<li><img src="../webroot/img/logo6.png" alt="Company Logo" /></li>
-			</ul>
+			<div id="company-logos" class="clearfix">
+				<ul>
+					<li><img src="../webroot/img/logo1.png" alt="Company Logo" /></li>
+					<li><img src="../webroot/img/logo2.png" alt="Company Logo" /></li>
+					<li><img src="../webroot/img/logo3.png" alt="Company Logo" /></li>
+					<li><img src="../webroot/img/logo4.png" alt="Company Logo" /></li>
+					<li><img src="../webroot/img/logo5.png" alt="Company Logo" /></li>
+					<li><img src="../webroot/img/logo6.png" alt="Company Logo" /></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 				

@@ -80,11 +80,11 @@
 			</ul>
 		</div>
 	</div>
+	
 
-	<div id="contentzone" class="clearfix">
+	<div id="teaser_zone" class="clearfix">
 		<div class="container">
-		   	<div id="content">
-
+		
 				<div class="listing_controls top clearfix">
 					<div class="ordering_wrap pull-left">
 						<div class="order-controls btn-group">
@@ -164,7 +164,16 @@
 						<li><a class="btn btn-primary active" href="#"><span class="arrow up"></span> Images</a></li>
 						<li><a class="btn btn-primary" href="#"><span class="arrow up"></span> Videos</a></li>
 					</ul>
+				</div>
 
+		</div>
+	</div>
+
+
+	<div id="contentzone" class="clearfix">
+	  	<div  class="container">
+	  	
+		   	<div id="content">
 
 					<div id="box_desc" class="clearfix">
 					
@@ -223,11 +232,8 @@
 
 					</div>
 
-					<div id="facebook-iframe">
-						<img src="../webroot/img/fb-iframe.png" alt="" />
-					</div>
 			    	
-				</div>
+	
 		    	
 		   	</div>
 				
@@ -348,8 +354,23 @@
 					<p class="readmore"><a class="btn btn-primary" title="" href="#">Voir toutes les offres</a></p>
 				</div>
 			</div>
+			<!-- end #content  -->
+		</div>
+		<!-- end .container  -->
+
+	</div>
+	<!-- end #content_zone  -->
+	
+
+	<div id="sub_content_zone">
+		<div class="container">
+			<div id="facebook-iframe">
+					<img src="../webroot/img/fb-iframe.png" alt="" />
+			</div>
 		</div>
 	</div>
+		
+					
 
 	<div id="footer" class="notice clearfix">
 		<div class="container">

@@ -81,10 +81,11 @@
 		</div>
 	</div>
 
-<div id="contentzone" class="clearfix">
-	<div class="container">
-	   	<div id="content">
-	   	   	<p class="page_ttre">Votre recherche</p>
+
+	<div id="teaser_zone" class="clearfix">
+		<div class="container">
+
+ 			<p class="page_ttre">Votre recherche</p>
 	   	   	
 	   	   	<div class="list_header clearfix">
 		   	    <h1 class="page_ttre">Type - Destination - moins de 2000 € - Promotion</h1>
@@ -130,6 +131,15 @@
 				  	</ul>
 				</div>
 			</div>
+			
+		</div>
+	</div>
+
+
+<div id="contentzone" class="clearfix">
+	<div class="container">
+	   	<div id="content">
+	   	  
 			
 			
 			<div class="search_results listing">

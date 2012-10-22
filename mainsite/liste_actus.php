@@ -79,10 +79,12 @@
 			</ul>
 		</div>
 	</div>
-<div id="contentzone" class="clearfix">
-	<div class="container">
-		<div id="content">
-			<h1 class="page_ttre">Notre actualité</h2>
+	
+
+	<div id="teaser_zone" class="clearfix">
+		<div class="container">
+			
+		 <h1 class="page_ttre">Notre actualité</h2>
 			<div class="listing_controls top clearfix">
 				<div class="ordering_wrap pull-left">
 					<div class="order-controls btn-group">
@@ -111,7 +113,17 @@
 					</ul>
 				</div>
 			</div>
-		
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+<div id="contentzone" class="clearfix">
+	<div class="container">
+		<div id="content">
+
 			<div class="liste_actus listing">
 				<ul class="thumbnails">
 					<li>

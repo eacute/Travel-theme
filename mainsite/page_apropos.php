@@ -81,10 +81,11 @@
 		</div>
 	</div>
 
-	<div id="contentzone" class="clearfix">
-		<div class="container">
-		   	<div id="content">
 
+
+	<div id="teaser_zone" class="clearfix">
+		<div class="container">
+		
 				<div class="listing_controls top clearfix">
 					<div class="ordering_wrap pull-left">
 						<div class="order-controls btn-group">
@@ -97,12 +98,9 @@
 							<a title="Annonce suivante"  href="javascript:;" class="nav-link">Produit suivant <span>&rsaquo;</span></a>
 						</div>
 					</div>	 
-			
 				</div>
-				
-				
-				
-				<div class="detail_about detail">
+	
+			
 				
 				
 					<div id="top_detail" class="clearfix">
@@ -167,7 +165,15 @@
 						<li><a class="btn btn-primary" href="#"><span class="arrow up"></span> Videos</a></li>
 					</ul>
 
+			 
+		</div>
+	</div>
 
+	<div id="contentzone" class="clearfix">
+		<div class="container">
+		   	<div id="content">
+
+				<div class="detail_about detail">
 
 					<div id="box_desc" class="clearfix">
 					

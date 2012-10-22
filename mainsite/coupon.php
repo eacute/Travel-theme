@@ -30,7 +30,7 @@
 	<script type="text/javascript" src="../webroot/js/default.js"></script>
 </head>
 
-<body class="sidebar-right">
+<body class="sidebar-right coupon-page single">
 	<div id="header" class="clearfix">
 		<div class="container">
 			<div id="logo-box" class="pull-left"><a title="" href="#"><img src="../webroot/img/logo-travel.png" alt="COMPANY NAME"/></a></div>
@@ -80,16 +80,9 @@
 		</div>
 	</div>
 
-	<div id="contentzone" class="clearfix">
+	<div id="teaser_zone" class="clearfix">
 		<div class="container">
-		   	<div id="content">
-		   	
-		   	
-				<div class="detail_coupon detail">
-
-		 
-					<div class="coupon clearfix"></div>
-					
+					<div  class="coupon"></div>
 					<div id="top_detail" class="clearfix">
 						<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
 						<div id="social-box" class="pull-right">
@@ -115,8 +108,18 @@
 					<div class="coupon-img">
 			    		<img src="http://lorempixel.com/640/480/" alt="">
 					</div>
+		</div>	
+	</div>
 			
-	 				<div id="box_desc" class="clearfix">
+		
+
+	<div id="contentzone" class="clearfix">
+		<div class="container">
+		   	<div id="content">
+		   	
+				<div class="detail_coupon detail">
+		 
+					<div id="box_desc" class="clearfix">
 						<div class="detail_desc">
 							<h2 class="ttre">Consetetur sadipscing elitr,  tempor invidunt ut labore </h2>
 							<p>Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
@@ -124,8 +127,6 @@
 							<p>Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
 						</div>
 					</div>
-					
-					
 					
 				</div>
 

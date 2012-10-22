@@ -80,17 +80,13 @@
 		</div>
 	</div>
 	
-	<div id="contentzone" class="clearfix">
+
+	<div id="teaser_zone" class="clearfix">
 		<div class="container">
-			<div id="content">
-				<p class="page_ttre">Toutes les Offres</p>
-				
 				<div class="list_header clearfix">
-		   	    	<h1 class="page_ttre">Destimation(s) - moins de 2000 € - Promotion</h1>
+			   	    <h1 class="page_ttre">Destimation(s) - moins de 2000 € - Promotion</h1>
 					<p class="pdt_count">124 annonces</p>
 				</div>
-				
-				
 				<div class="listing_controls top clearfix">
 					<div class="ordering_wrap pull-left">
 						<div class="order-controls btn-group">
@@ -119,6 +115,18 @@
 						</ul>
 					</div>
 				</div>
+				
+		</div>
+	</div>
+	
+	<div id="contentzone" class="clearfix">
+		<div class="container">
+			<div id="content">
+				<p class="page_ttre">Toutes les Offres</p>
+				
+	
+				
+
 				<div class="liste_produits listing">
 					<ul class="thumbnails">
 						<li>

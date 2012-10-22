@@ -85,7 +85,17 @@ $(function () {
 	/* GMAP 
 	* =================================== */ 
     if ($("#detail_gmap .gmap").is("*"))   $("#detail_gmap .gmap").gMap({ markers: [{latitude: 50.083,longitude: 19.917}], zoom:12 }); 
-
+    
+	/* COLUMN HEIGHT 
+	* =================================== */ 
+	if ( $("#sidebar-right").is("*") )   setTimeout(function(){ adjust_height()},630);
+	
+	function  adjust_height(){
+		sHeight=$("#sidebar-right").outerHeight();
+		bHeight=$("html").height();
+		if ( bHeight < sHeight+360  ){   $("#footer").css({"margin-top" : ((sHeight+360) - bHeight  )+ "px" }) ; }
+	}
+ 
 
 })
 
