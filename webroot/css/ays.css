@@ -126,7 +126,8 @@ ul.inline-list.border > li:last-child  {border-right:none}
 .alternate .navbar-inner {background: transparent; box-shadow: none;}
 .alternate .nav a {text-shadow: none !important;}
 .alternate .nav > li.open {background: #00B6D9;}
-.alternate .nav > li.open > a {color: #202020;}
+.alternate .nav > li.open > a{color: #202020;}
+.alternate .nav > li.open.active > a:hover {color:#fff;}
 .alternate .nav > li > a:hover,
 .alternate .nav .active > a,
 .alternate .nav .active > a:hover,
@@ -407,7 +408,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .price_holder .price .old{display:block;}
 .price .old{text-decoration: line-through; }
 
-
+.icon-promo {overflow:hidden;}
 /*DETAIL PRODUCT CAROUSEL*/
 #carousel-detail{margin-bottom: 0; height: 560px; width: 640px; padding: 0 0 0 0;}
 #carousel-detail .sliderkit-panels,#carousel-detail .sliderkit-panel,#carousel-detail .sliderkit-panels-wrapper {height:460px}

@@ -59,16 +59,15 @@ p.pdt_count,
 [class*=" icon-"],
 .order-controls .m-btn,
 .slider-caption p.price,
-.price_holder .price {
+.price_holder {
 	background-image: url(../../img/sprite_jaune.png);
 }
 
 /* Nav bar */ 
-.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu,
 #productTab.nav-tabs > li a
 {background-color: #9f6503;}
 .navbar .dropdown-menu a:hover {background:#d3a53b;}
-.navbar .nav > li > a,
 #footer h3,
 #footer .col .ttre {color: #9f6503; text-shadow: none;}
 

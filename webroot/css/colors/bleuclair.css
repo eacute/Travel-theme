@@ -43,15 +43,14 @@ a:hover
 [class*=" icon-"],
 .order-controls .m-btn,
 .slider-caption p.price,
-.price_holder .price {
+.price_holder {
 	background-image: url(../../img/sprite_bleuclair.png);
 }
 
 /* Nav bar */ 
-.navbar .nav .open > .dropdown-toggle, .navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu 
+.navbar .nav .open > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle,.navbar .dropdown-menu 
 {background-color: #36B3D9;}
 .navbar .dropdown-menu a:hover {background:#222D80;}
-.navbar .nav > li > a,
 #footer h3,
 #footer .col .ttre {color: #222d80; text-shadow: none;}
 
