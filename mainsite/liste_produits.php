@@ -89,7 +89,7 @@
 				<div class="list_header clearfix">
 					<p class="page_ttre">Toutes les Offres</p>
 		   	    	<h1 class="page_ttre">Destimation(s) - moins de 2000 € - Promotion</h1>
-					<p class="pdt_count">124 annonces</p>
+					<p class="pdt_count"><strong>124</strong> produits</p>
 				</div>
 				
 				
@@ -316,7 +316,7 @@
 						<div class="form-actions">
 							<input type="submit" class="btn btn-primary" value="Valider"/>
 					    </div>
-					    <p class="readmore">&#8594; <a title="" href="#">Voir toutes les offres</a></p>
+					    <p class="readmore"><a title="" href="#">Voir toutes les offres</a></p>
 					</form>
 				</div>
 				<div id="box-book" class="">

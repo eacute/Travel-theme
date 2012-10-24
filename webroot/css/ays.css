@@ -79,7 +79,6 @@ a { color:#ff0000; font-family: 'Open Sans' }
 
 /*CONTENT BACKGROUNDS*/
 .list-news #contentzone {background: none;}
-.single #content{ background: #000;}
 
 /*TEMPLATES WITH RIGHT SIDEBAR*/
 .sidebar-right #content {
@@ -448,9 +447,9 @@ ul.inline-list.border > li:last-child  {border-right:none}
 #carousel-home .sliderkit-nav-clip,#carousel-home .sliderkit-go-btn {float:left;padding: 0; margin: 0; width: 50%; }
 #carousel-home .sliderkit-nav-clip a {color: #5eb0d1; font-size: 18px; padding-top: 2px;}
 #carousel-home .sliderkit-go-btn {}
-#carousel-home .sliderkit-go-btn a{display: block; width: 60px; height: 60px; float: left; font-size: 30px; line-height: 56px; color: #fff; text-indent: -2000em; background: url("../img/sprite.png") no-repeat transparent;}
-#carousel-home .sliderkit-go-prev a { background-position: -58px -72px;}
-#carousel-home .sliderkit-go-next a { background-position: -119px -72px;}
+#carousel-home .sliderkit-go-btn a{display: block; width: 60px;height: 38px;float: left; font-size: 30px; line-height: 38px; color: #fff; margin:11px 0; text-indent: -2000em; background: url("../img/sprite.png") no-repeat transparent;}
+#carousel-home .sliderkit-go-prev a {  	background-position: -58px -84px; }
+#carousel-home .sliderkit-go-next a {  	background-position: -119px -84px; }
 #carousel-home .sliderkit-go-btn.sliderkit-btn-disable{opacity:0;filter: alpha(opacity=0);cursor:default;}
 
 .sliderkit-nav .sliderkit-nav-clip{display: none;}
@@ -479,16 +478,12 @@ ul.inline-list.border > li:last-child  {border-right:none}
 	font-family: 'Open Sans'; 
 	font-size: 12px;
 	text-shadow: none; 
+	color: #fff;
 }
 .breadcrumb li a ,
 .breadcrumb .divider {
 	color: #fff;
-}
-.breadcrumb h1 {
-	font-size: 12px; 
-	color: #939393; 
-	font-family: 'Open Sans'; 
-	font-weight: normal;
+	font-style:italic;
 }
 
 /*. intro */
@@ -542,11 +537,13 @@ i.large{height:26px;width:26px;line-height:26px}
 .page_ttre , 
 .sub_ttre{ 
 	font-size: 18px; 
-	line-height: 16px;
+	line-height: 20px;
 	margin:0px; 
 	padding: 0px;
 	color: #fff;  
 	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700; 
 }
 .box_title { margin-bottom: 20px; line-height: 20px; font-size: 20px; font-weight: 700; color: #125389; text-transform: uppercase; text-shadow: none;}
 #box-search { height: 400px; width: 454px; margin-bottom: 20px; float:left;}
@@ -571,9 +568,9 @@ i.large{height:26px;width:26px;line-height:26px}
 	z-index:10;
 }
 
-#box-featured .thumbnail p.price,
-#box-featured .thumbnail .cat{bottom:0;}
-#box-featured .thumbnail p.price{width: 100px; right: 0; }
+#box-featured .thumbnail .price,
+#box-featured .thumbnail .cat{bottom:0;top:auto;}
+#box-featured .thumbnail .price{width: 100px; right: 0;}
 #box-featured .thumbnail .cat {width:90px; right: 113px;}
 
 #box-featured .thumbnail .cat span, 
@@ -753,8 +750,7 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .list_header {margin:-40px -350px 0 -50px;padding: 0px 350px 0 50px;background: #009dbb;}
 .list .page_ttre{
 	margin:  0;
-	font-size: 16px;
-	padding: 10px 0 0 0 ;	
+	padding: 10px 100px 0 0 ;	
 	font-style: normal;
 	color: #fff;
 }
@@ -763,10 +759,12 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 .list_header h1.page_ttre{
 	color: #fff;
 	font-style:normal;
-	font-size: 22px;
 	padding: 10px 0;
-	line-height:24px;
+	line-height:18px;
+	font-weight:400;
+	font-size: 16px
 }
+
 .listing {margin-top:20px;}
 
 /*Liste actus*/
@@ -815,18 +813,26 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 	left:0
 }
 
+#box-featured .thumbnail .cat,
+.liste_produits .thumbnail .cat,
+.search_results .thumbnail .cat{
+	background-color:#00cfd4;
+}
+
 #sidebar-right #box-featured .thumbnail .cat,
 .liste_produits .thumbnail .cat,
 .search_results .thumbnail .cat{
 	top:0;
- 	background-color:#00cfd4;
 }
-
-#sidebar-right #box-featured .thumbnail .price,
+#box-featured .thumbnail .price,
+.liste_produits .thumbnail  .price,
+.search_results .thumbnail  .price{
+	background-color:#2c7c9e;
+}
+#sidebar-right  #box-featured .thumbnail .price,
 .liste_produits .thumbnail  .price,
 .search_results .thumbnail  .price{
 	top:45px;
-	background-color:#2c7c9e;
 }
 
 .liste_actus .thumbnail,
@@ -840,12 +846,14 @@ input, textarea, select, .uneditable-input ,.select-group .btn {-webkit-border-r
 /*SEARCH RESULT*/
 p.pdt_count {
 	padding:0 0 10px 0;
-	margin: 0;
-	font-size: 18px; 
-	color: #61b5d7;
+	margin: -50px 0 0 0 ;
+	font-size: 16px; 
+	color: #fff;
 	text-align: right;
+	float:right;
+	width:80px;
 }
-
+p.pdt_count strong{font-weight:700;}
 /*ORDER CONTROLS*/
 .listing_controls {
 	margin:-0px -350px 0 -50px;
@@ -860,14 +868,12 @@ p.pdt_count {
 .listing_controls .ordering_wrap > div:first-child a {padding-left: 0;}
 .listing_controls .ordering_wrap > div a {
 	color: #949494; 
-	font-weight: normal; 
-	font-size: 12px; 
-	padding-top: 0;
 	padding: 0;
 	margin: 0;
-	line-height: 12px;
+
 }
-.listing_controls .ordering_wrap > div a:hover {text-decoration:underline}
+
+.listing_controls .ordering_wrap > div a:hover {text-decoration:underline!important;}
 
 .listing_controls.bottom {
 	margin-left: -40px;
@@ -893,8 +899,7 @@ p.pdt_count {
 .order-controls .dec{top:12px;background-position:-112px 233px;}
 .order-controls .dec:hover{top:12px;background-position:-136px 233px;}
 .order-controls .nav-link{padding: 4px 4px 4px 4px ;display:inline-block;overflow:hidden;}
-.order-controls .nav-link span{padding:0 4px ;}
-.order-controls a:hover{text-decoration:underline;}
+.order-controls a:hover {text-decoration:underline;}
 .print_btn {float:right;font-family: 'Open Sans'; font-weight: normal; text-shadow: none; 	font-size: 14px;margin:-5px 0  0 10px; ;}
 .print_btn .icon-print {display: none;}
 
@@ -939,11 +944,12 @@ p.pdt_count {
     padding: 0 0 0 50px;
 	height: 45px;
 }
-.single .listing_controls,
-.single #contentzone .container{
+.listing_controls,
+.detail{
 	background: #000;
 }
 
+.detail{margin:0 -340px 20px -40px;padding:0 340px 20px 40px }
 #top_detail {
 	margin:-40px 0 0 -50px;
 	padding:40px 20px 0 140px;
@@ -963,8 +969,6 @@ p.pdt_count {
 
 .single .highlight h1.page_ttre, 
 .single .highlight .sub_ttre {
-	color: #fff;
-	font-weight: 700; 
 	font-size: 20px ; 
 	line-height: 20px;
 	padding: 0; 

@@ -24,7 +24,7 @@ a:hover {
 .btn-primary.active { 
 	background-color: #bf1c1c;
 }
-
+.images-video li a.active{color: #bf1c1c;}
 
 /* Nav bar */ 
 .navbar .nav > li > a:hover,
@@ -114,7 +114,6 @@ p.pdt_count,
 .box_title,
 .thumbnail .ttre a,
 h1,h2,h3,h4,h5,
-.breadcrumb li,
 #header a,
 .tab-pane h3,
 .detail_about #box_desc .detail_desc h2,

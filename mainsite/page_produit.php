@@ -89,7 +89,7 @@
 			<div class="listing_controls top clearfix">
 				<div class="ordering_wrap pull-left">
 					<div class="order-controls btn-group">
-						<a title="Retour à la liste"  href="javascript:;" class="nav-link">Revenir à la liste</a>
+						<a title="Retour à la liste" href="javascript:;" class="nav-link">Revenir à la liste</a>
 					</div>
 					<div class="order-controls btn-group">
 						<a title="Annonce précédente"  href="javascript:;" class="nav-link"><span>&lsaquo;</span> Produit précédent</a>
@@ -172,10 +172,10 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<ul class="nav nav-tabs" id="productTab">
-								<li class="active"><a href="#desc">Descriptif</a></li>
-								<li><a href="#plus">Plus produit</a></li>
-								<li><a href="#promotion">Promotion</a></li>
-								<li><a href="#localisation">Localisation</a></li>
+								<li class="active"><h3><a href="#desc">Descriptif</a></h3></li>
+								<li><h3><a href="#plus">Plus produit</a></h3></li>
+								<li><h3><a href="#promotion">Promotion</a></h3></li>
+								<li><h3><a href="#localisation">Localisation</a></h3></li>
 							</ul>
 	
 							<div class="tab-content">
@@ -233,11 +233,6 @@
 							</div>
 
 
-
-								     
-								 
-
-
 							
 						</div>
 						
@@ -253,12 +248,12 @@
 
 					</div>
 
-					<div id="facebook-iframe">
+		
+				</div>
+		    		<div id="facebook-iframe">
 						<img src="../webroot/img/fb-iframe.png" alt="" />
 					</div>
 			    	
-				</div>
-		    	
 		   	</div>
 				
 			<div id="sidebar-right">
