@@ -1,4 +1,5 @@
-<?php include './data/theme_front-data.php' ?>
+<?php include './data/theme_front-data.php'; ?>
+<?php $color=$_GET['color'] || 'noir'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
@@ -15,7 +16,7 @@
 	<link type="text/css" href="../webroot/css/bootstrap.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/slideshow-core.css" rel="stylesheet">
 	<link type="text/css" href="../webroot/css/ays.css" rel="stylesheet">
-	<?php if ($_GET['color']):?>
+	<?php if ($color):?>
 	<link type="text/css" href="../webroot/css/colors/<?php echo $_GET['color'];?>.css" rel="stylesheet">
 	<?php endif;?>
 	<!--[if IE 8]>
@@ -45,7 +46,7 @@
 				<div id="contact-box">
 					<h2 class="ttre">Contactez-nous</h2>
 					<p class="desc">au 01.34.53.90.75</br>
-					ou <a title="" href="#">par email</a></p>
+					ou <a title="contactez-nous"  data-toggle="modal" href="modal.php">par email</a></p>
 				</div>
 				<div id="share-box">
 					<h2 class="ttre">Retrouvez-nous</h2>
@@ -97,7 +98,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre"><a title="" href="#">Bali est magique lorem ipsum nec mergitur</a></h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -106,7 +107,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -116,7 +117,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -126,7 +127,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -136,7 +137,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -146,7 +147,7 @@
 					<div class="sliderkit-panel">
 						<img src="http://lorempixel.com/480/260/city" alt="">
 						<p class="price"><small>à partir de</small>1890 €</p>
-						<p class="cat"><i class="icon-heart"></i> <span>Excursion</span></h3>
+						<p class="cat"><i class="icon-heart-bb"></i> <span>Excursion</span></h3>
 						<div class="slider-caption">	
 							<h3 class="ttre">Bali est magique lorem ipsum nec mergitur</h3>
 							<p class="desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
@@ -211,76 +212,60 @@
 					<ul class="thumbnails">
 						<li class="span2">
 							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+									<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem.</a></h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod.</p>							
 								</div>
 							</div>
 						</li>
 						<li class="span2">
 							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+									<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem.</a></h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod.</p>							
 								</div>
 							</div>
 						</li>
 						<li class="span2">
 							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-promo"></i> <span>séjour</span></p>
+									<p class="cat"><i class="icon-promo"></i> <span> événement </span></p>
 									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem.</a></h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod.</p>							
 								</div>
 							</div>
 						</li>
 						<li class="span2">
 							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+									<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
+									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem.</a></h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod.</p>							
 								</div>
 							</div>
 						</li>
 						<li class="span2">
 							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
+								<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+									<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 									<p class="price">à partir de 1630 €</p>
 									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 								</div>
 							</div>
 						</li>
-						<li class="span2">
-							<div class="thumbnail clearfix">
-								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<div class="caption">
-									<div class="arrow left"></div>
-									<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
-									<p class="price">à partir de 1630 €</p>
-									<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
-									<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
-								</div>
-							</div>
-						</li>
+
 					</ul>
 					<a class="btn btn-primary" title="Voir toutes les offres" href="#">Voir toutes les offres</a>
 				</div>
@@ -335,11 +320,15 @@
 		<div class="container">
 			  <div class="pull-left col col1">
 			    <div id="secondary_menu" class="clearfix">
-				     <ul class="nav inline-list" >
+				     <ul class="inline-list" >
 				      <li><a title="" href="#">Accueil</a></li>
 				      <li><a title="" href="#">Menu 01</a></li>
 				      <li><a title="" href="#">Menu 02</a></li>
 				      <li><a title="" href="#">Menu 03</a></li>
+				      <li><a title="" href="#">Menu 04</a></li>
+				      <li><a title="" href="#">Menu 05</a></li>
+				      <li><a title="" href="#">Menu 06</a></li>
+				      <li><a title="" href="#">Menu 07</a></li>
 				      <li><a title="" href="#">Menu 04</a></li>
 				      <li><a title="" href="#">Menu 05</a></li>
 				      <li><a title="" href="#">Menu 06</a></li>

@@ -39,7 +39,7 @@
 			<div class="colwrapper pull-right clearfix">
 				<div id="contact-box">
 					<h2 class="ttre">Contactez-nous</h2>
-					<p class="desc">au 01.34.53.90.75 ou <a title="" href="#">par email</a></p>
+					<p class="desc">au 01.34.53.90.75 ou <a title="contactez-nous"  data-toggle="modal" href="modal.php">par email</a></p>
 				</div>
 				<div id="share-box">
 					<h2 class="ttre">Retrouvez-nous</h2>
@@ -177,10 +177,10 @@
 						<ul class="thumbnails">
 							<li class="span4">
 								<div class="thumbnail clearfix">
-									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
+									<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 									<div class="caption">
-										<div class="arrow left"></div>
-										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
+										
+										<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
 										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 										<p class="price">à partir de 1630 €</p>
@@ -189,10 +189,10 @@
 							</li>
 							<li class="span4">
 								<div class="thumbnail clearfix">
-									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
+									<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 									<div class="caption">
-										<div class="arrow left"></div>
-										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
+										
+										<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
 										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 										<p class="price">à partir de 1630 €</p>
@@ -201,10 +201,10 @@
 							</li>
 							<li class="span4">
 								<div class="thumbnail clearfix">
-									<img src="http://lorempixel.com/145/110/city" alt="" class="pull-left">
+									<img src="http://lorempixel.com/146/110/city" alt="" class="pull-left">
 									<div class="caption">
-										<div class="arrow left"></div>
-										<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
+										
+										<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
 										<h3 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h3>
 										<p class="desc">Lorem ipsum dolor sit amet, consetetur sed diam nonumy eirmod tempor.</p>							
 										<p class="price"><del>1630 €</del> 1630 €</p>

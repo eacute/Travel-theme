@@ -86,7 +86,7 @@ a:hover {
 	background:#5e3d1e;
 }
 .slider-caption,
-.list .page_ttre,
+.list .list_header,
 p.pdt_count,
 .single #sidebar-right:before,
 .coupon-page .highlight h1.page_ttre {
@@ -102,7 +102,7 @@ p.pdt_count,
 .navbar .container {}
 .select-group .btn.dropdown-toggle {}
 
-#box-featured .thumbnail p.price,
+#sidebar-right #box-featured .thumbnail p.price,
 .liste_produits .thumbnail p.price,
 .search_results .thumbnail p.price,
 .single .highlight,
@@ -171,7 +171,7 @@ ul.breadcrumb .active,{
 	background-color: #631c14;
 }
 .sliderkit-panel .cat,
-#box-featured .thumbnail .cat,
+#sidebar-right #box-featured .thumbnail .cat,
 .liste_produits .thumbnail .cat, 
 .search_results .thumbnail .cat,
 .detail_produit .cat {
@@ -194,10 +194,12 @@ ul.breadcrumb .active,{
 .navbar-inner:before {
     border-color: transparent #401f1f #401f1f transparent;
 }
-#content:after {
+.list .listing_controls.top:after,
+.single .highlight:after {
     border-color: #401f1f transparent transparent #401f1f;
 }
-#content:before {
+.list .listing_controls.top:before ,
+.single .highlight:before{
     border-color: #401f1f #401f1f transparent transparent;
 }
 .single #content:after{

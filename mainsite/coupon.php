@@ -39,7 +39,7 @@
 			<div class="colwrapper pull-right clearfix">
 				<div id="contact-box">
 					<p class="ttre">Contactez-nous</p>
-					<p class="desc">au 01.34.53.90.75 ou <a title="" href="#">par email</a></p>
+					<p class="desc">au 01.34.53.90.75 ou <a title="contactez-nous"  data-toggle="modal" href="modal.php">par email</a></p>
 				</div>
 				<div id="share-box">
 					<p class="ttre">Retrouvez-nous</p>
@@ -112,8 +112,7 @@
 					<div class="highlight clearfix">
 						<div class="coupon clearfix"></div>
 						<div class="price_holder"><p class="price">Coupon : 20%</p></div>
-
-						 <h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
+						<h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		            </div>
 	
 					<div class="coupon-img">
@@ -123,9 +122,9 @@
 	 				<div id="box_desc" class="clearfix">
 						<div class="detail_desc">
 							<h2 class="ttre">Consetetur sadipscing elitr,  tempor invidunt ut labore </h2>
-							<p>Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
-							<p>Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
-							<p>Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
+							<p>Consetetur sadipscing elitr, tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
+							<p>Consetetur sadipscing elitr, tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.Consetetur sadipscing elitr,  tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
+							<p>Consetetur sadipscing elitr, tempor invidunt ut labore dolor perdiem lorum etar nacer.</p>
 						</div>
 					</div>
 					
@@ -139,8 +138,8 @@
 				
 			<div id="sidebar-right">
 
-				<div id="box-news" class="nom">
-					<h4 class='ttre'>Nom De L'agence</h4>
+				<div id="box-welcome">
+					<h4 class='box_title'>Nom De L'agence</h4>
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elit sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					<p class="readmore"><a class="btn btn-primary" title="" href="#">En savoir plus</a></p>
 				</div>
@@ -191,7 +190,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -202,7 +201,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -213,7 +212,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -224,7 +223,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -235,7 +234,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>

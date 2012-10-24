@@ -39,7 +39,7 @@
 			<div class="colwrapper pull-right clearfix">
 				<div id="contact-box">
 					<p class="ttre">Contactez-nous</p>
-					<p class="desc">au 01.34.53.90.75 ou <a title="" href="#">par email</a></p>
+					<p class="desc">au 01.34.53.90.75 ou <a title="contactez-nous"  data-toggle="modal" href="modal.php">par email</a></p>
 				</div>
 				<div id="share-box">
 					<p class="ttre">Retrouvez-nous</p>
@@ -106,7 +106,7 @@
 				
 					<div id="top_detail" class="clearfix">
 						<div class="print_btn clearfix"><a class="btn btn-primary" href="javascript:;"><span>Imprimer</span><i class="icon-print"></i></a></div>
-						<div id="social-box" class="pull-right">
+						<div id="social-box" class="pull-left">
 							<!-- AddThis Button BEGIN -->
 							<div class="addthis_toolbox addthis_default_style ">
 								<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -119,8 +119,8 @@
 					</div>
 			
 					<div class="highlight clearfix">
-		                <div class="price_holder"><p class="price"><span class="old">12 €</span>  <span>10 €</span></p></div>
-		                <h2 class="cat"><i class="icon-promo"></i><span>excursion</span></h2>
+		                <div class="price_holder"><p class="price"><del class="old">1200 €</del>  <span>1000 €</span></p></div>
+		                <h2 class="cat"><i class="icon-promo-bb"></i><span>excursion</span></h2>
 						<h1 class="page_ttre">Lorem ipsum vera etsem nec mergitur sodil questa</h1>
 		                <div class="btn_contact"><a data-toggle="modal" title="Contactez le vendeur"  class="btn btn-xlarge  btn-primary" href="modal.php">Nous contacter</a></div>
 		            </div>
@@ -149,11 +149,11 @@
 							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a href="#" title="Scroll to the left">&lsaquo;</a></div>
 							<div class="sliderkit-nav-clip">
 								<ul class="clearfix">
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 01"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 02"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 03"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 04"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
-									<li><span class="arrow up"></span><a href="#" title="Photo sample 05"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 01"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 02"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 03"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 04"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
+									<li><a href="#" title="Photo sample 05"><img src="http://lorempixel.com/100/75/city" alt=""></a></li>
 								</ul>
 							</div>
 							<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a href="#" title="Scroll to the right">&rsaquo;</a></div>
@@ -162,8 +162,8 @@
 					</div>
 
 					<ul class="images-video clearfix">
-						<li><a class="btn btn-primary active" href="#"><span class="arrow up"></span> Images</a></li>
-						<li><a class="btn btn-primary" href="#"><span class="arrow up"></span> Videos</a></li>
+						<li><a class="btn btn-primary active" href="#"> Images</a></li>
+						<li><a class="btn btn-primary" href="#"> Videos</a></li>
 					</ul>
 
 
@@ -172,10 +172,10 @@
 						<div id="productTabWrap" class="clearfix">
 						
 							<ul class="nav nav-tabs" id="productTab">
-								<li class="active"><a href="#desc">Descriptif</a><span class="arrow down"></span></li>
-								<li><a href="#plus">Plus produit</a><span class="arrow down"></span></li>
-								<li><a href="#promotion">Promotion</a><span class="arrow down"></span></li>
-								<li><a href="#localisation">Localisation</a><span class="arrow down"></span></li>
+								<li class="active"><a href="#desc">Descriptif</a></li>
+								<li><a href="#plus">Plus produit</a></li>
+								<li><a href="#promotion">Promotion</a></li>
+								<li><a href="#localisation">Localisation</a></li>
 							</ul>
 	
 							<div class="tab-content">
@@ -263,8 +263,8 @@
 				
 			<div id="sidebar-right">
 
-				<div id="box-news" class="nom">
-					<h4 class='ttre'>Nom De L'agence</h4>
+				<div id="box-welcome">
+					<h4 class='box_title'>Lorem ipsum sit amet conset nato.</h4>
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elit sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					<p class="readmore"><a class="btn btn-primary" title="" href="#">En savoir plus</a></p>
 				</div>
@@ -315,7 +315,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -326,7 +326,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -337,7 +337,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -348,7 +348,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
@@ -359,7 +359,7 @@
 						<li>
 							<div class="thumbnail clearfix">
 								<img src="http://lorempixel.com/120/90/city" alt="" class="pull-left">
-								<p class="cat"><i class="icon-heart"></i> <span>séjour</span></p>
+								<p class="cat"><i class="icon-heart-b"></i> <span>séjour</span></p>
 								<p class="price">à partir de 1630 €</p>
 								<div class="caption">
 									<h5 class="ttre"><a title="" href="#">Lorem ipsum dolor sit amet consetet, duis autem vel eum.</a></h5>
