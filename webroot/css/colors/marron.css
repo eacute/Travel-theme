@@ -3,6 +3,9 @@ a,.order-controls label,
 a:hover {
 	color: #5e3d1e;
 }
+
+.listing_controls .ordering_wrap > div a{color: #79603f;}
+
 .dropdown-menu li > a:hover, 
 .dropdown-menu .active > a, 
 .dropdown-menu .active > a:hover{
