@@ -102,7 +102,7 @@ p.pdt_count,
 .navbar .container {}
 .select-group .btn.dropdown-toggle {}
 
-#sidebar-right #box-featured .thumbnail p.price,
+#box-featured .thumbnail p.price,
 .liste_produits .thumbnail p.price,
 .search_results .thumbnail p.price,
 .single .highlight,
@@ -171,7 +171,7 @@ ul.breadcrumb .active,{
 	background-color: #d34000;
 }
 .sliderkit-panel .cat,
-#sidebar-right #box-featured .thumbnail .cat,
+#box-featured .thumbnail .cat,
 .liste_produits .thumbnail .cat, 
 .search_results .thumbnail .cat,
 .detail_produit .cat {
